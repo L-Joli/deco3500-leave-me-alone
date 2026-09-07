@@ -1,0 +1,793 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="97408.86px" height="140942.67px"
+		style="transform-origin: 0px 0px 0px;" version="1.1"
+		xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style xmlns="http://www.w3.org/2000/svg" type="text/css"><![CDATA[
+		* {
+			text-rendering: geometricprecision !important;
+		}
+		]]><![CDATA[@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/800985e1502d12bf.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/d8a7ca42a20caea5.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/3cc74c1d3919bd5c.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/f0481285dc248cf0.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/2f5e8dcf6e47bf00.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/0e625f45b71a26f1.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/645c27eb7d93eca8.woff2") format('woff2');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Hebrew Regular'), local('Noto Sans Hebrew-Regular'), url("https://mirostatic.com/app/static/7ebe1dcf0343326c.woff2") format('woff2'), url("https://mirostatic.com/app/static/6c11f037d6968262.woff") format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Hebrew Bold'), local('Noto Sans Hebrew-Bold'), url("https://mirostatic.com/app/static/d2883e2f177d0dad.woff2") format('woff2'), url("https://mirostatic.com/app/static/8546991909eadbc9.woff") format('woff');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url("https://mirostatic.com/app/static/a73798e3d459e1bc.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Noto Sans Italic'), local('NotoSans-Italic'), url("https://mirostatic.com/app/static/a8edd710f88715d4.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'), url("https://mirostatic.com/app/static/006d7e33e60b9e12.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Noto Sans Medium Italic'), local('NotoSans-MediumItalic'), url("https://mirostatic.com/app/static/31387059566a3171.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Noto Sans SemiBold'), local('NotoSans-SemiBold'), url("https://mirostatic.com/app/static/526dd53b40975c37.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Noto Sans SemiBold Italic'), local('NotoSans-SemiBoldItalic'), url("https://mirostatic.com/app/static/e73d4fdd87d7e319.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url("https://mirostatic.com/app/static/9f11d6779c14d2bc.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Noto Sans Bold Italic'), local('NotoSans-BoldItalic'), url("https://mirostatic.com/app/static/888e13e017cedc15.woff2") format('woff2');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Japanese Regular'), local('Noto Sans Japanese-Regular'), url("https://mirostatic.com/app/static/9320b3c07ab79383.woff2") format('woff2'), url("https://mirostatic.com/app/static/a43be2cbcfc0b250.woff") format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Japanese Bold'), local('Noto Sans Japanese-Bold'), url("https://mirostatic.com/app/static/7ab032c73212439f.woff2") format('woff2'), url("https://mirostatic.com/app/static/29f177f4466bd7a1.woff") format('woff');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url("https://mirostatic.com/app/static/7a5b625774730d22.woff2") format('woff2'), url("https://mirostatic.com/app/static/2d84dc606f1fb88e.woff") format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url("https://mirostatic.com/app/static/fa5a3d9073cdd58f.woff2") format('woff2'), url("https://mirostatic.com/app/static/7ded243557c83342.woff") format('woff');
+}
+]]></style><path id="LineHeadArrow16" d="M-60.36363636363636,-30.18181818181818 L0,0 L-60.36363636363636,30.18181818181818 Z"></path><filter x="-50%" y="-50%" width="200%" height="200%" id="StickerShadowFilter">
+				<feOffset result="offOut" in="SourceGraphic" dx="1" dy="3" />
+      			<feGaussianBlur result="blurOut" in="offOut" stdDeviation="3" />
+			</filter><path id="StickerType1RPath" d="M1.995.996c.003-.55.444-.993 1.01-.99l685.99 3.988c.556.003 1 .453.995 1.006l-3.98 394c-.005.552-.46.997-1.01.994L1.5 396c-.5 0-1.5-1-1.5-1.5L1.995.996z"/><g id="StickerType1R" fill-rule="evenodd">
+					<path d="M1.995.996c.003-.55.444-.993 1.01-.99l685.99 3.988c.556.003 1 .453.995 1.006l-3.98 394c-.005.552-.46.997-1.01.994L1.5 396c-.5 0-1.5-1-1.5-1.5L1.995.996z" fill-opacity=".12" fill="#000" filter="url(#StickerShadowFilter)" transform="translate(1, 3)" />
+					<g><use fill="inherit" xlink:href="#StickerType1RPath"/></g>
+				</g><path id="StickerType2RPath" d="M.008.995C.003.445.44 0 1.008.003l688.984 1.994c.557.002 1.01.446 1.013 1.01l1.99 389.987c.003.556-.435 1.006-1.002 1.006H4.007c-.556 0-1.01-.445-1.015-.995L.008.995z"/><g id="StickerType2R" fill-rule="evenodd">
+					<path d="M.008.995C.003.445.44 0 1.008.003l688.984 1.994c.557.002 1.01.446 1.013 1.01l1.99 389.987c.003.556-.435 1.006-1.002 1.006H4.007c-.556 0-1.01-.445-1.015-.995L.008.995z" fill-opacity=".12" fill="#000" filter="url(#StickerShadowFilter)" transform="translate(1, 3)" />
+					<g><use fill="inherit" xlink:href="#StickerType2RPath"/></g>
+				</g></defs><rect id="svg-board-background-color" width="100%" height="100%" fill="#f2f2f2"></rect><g data-widget-id="3458764682869475321"><image href="data:image/svg+xml;utf8,%3Csvg%0A%09width%3D%2297408.86434050114%22%0A%09height%3D%22140942.66888834105%22%0A%09shape-border-width%3D%22shape-background%22%0A%09style%3D%22width%3A97408.86434050114px%3B%20height%3A%20140942.66888834105px%3B%22%0A%09class%3D%22shape-background%22%0A%09preserveAspectRatio%3D%22none%22%0A%09version%3D%221.1%22%0A%09xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%3E%0A%09%3CclipPath%20id%3D%221643741592963%22%3E%0A%09%09%3Crect%0A%09%09%09x%3D%220%22%0A%09%09%09y%3D%220%22%0A%09%09%09width%3D%2297408.86434050114%22%0A%09%09%09height%3D%22140942.66888834105%22%0A%09%09%09rx%3D%220%22%0A%09%09%09ry%3D%220%22%0A%09%09%3E%3C%2Frect%3E%0A%09%3C%2FclipPath%3E%0A%09%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%220%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%09%09%3Crect%0A%09%09%09class%3D%22shape-element%20shape-element-rect%22%0A%09%09%09stroke%3D%22%23000000%22%0A%09%09%09stroke-width%3D%220%22%0A%09%09%09stroke-dasharray%3D%22%22%0A%09%09%09stroke-opacity%3D%22%22%0A%09%09%09fill%3D%22%23ffffff%22%0A%09%09%09fill-opacity%3D%22%22%0A%09%09%09x%3D%220%22%0A%09%09%09y%3D%220%22%0A%09%09%09width%3D%2297408.86434050114%22%0A%09%09%09height%3D%22140942.66888834105%22%0A%09%09%09rx%3D%220%22%0A%09%09%09ry%3D%220%22%0A%09%09%09clip-path%3D%22url(%231643741592963)%22%0A%09%09%3E%3C%2Frect%3E%0A%09%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A" width="97408.86px" height="140942.67px" data-frame="true" preserveAspectRatio="none" data-frame-id="3458764682869475321" transform="translate(32.21, -57.89) scale(1) rotate(0, 48704.43, 70471.335)" /></g><g data-widget-id="3458764682869708621"><g width="187px" height="20px"  transform="translate(1292.92, 996.49) scale(20.571428571428573) rotate(0, 93.5, 10)"><svg
+	width="187"
+	height="20"
+	shape-border-width="shape-background"
+	style="width:187px; height: 20px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="771330043101">
+		<rect
+			x="0"
+			y="0"
+			width="187"
+			height="20"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="187"
+			height="20"
+			rx="0"
+			ry="0"
+			clip-path="url(#771330043101)"
+		></rect>
+	</g>
+</svg>
+</g><g width="3846.857142857143px" height="411.42857142857144px"  transform="translate(1292.92, 996.49) rotate(0, 1923.4285714285716, 205.71428571428572)"><g transform="translate(0, 0)"><text xml:space="preserve" x="0" y="288" width="3818.0126953125005" textLength="3818.0126953125005" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="288" 
+				fill="#282828" direction="ltr" >Round 2 Interview Synthesis</text></g></g></g><g data-widget-id="3458764682869938719"><g width="5166.95px" height="2814.37px"  transform="translate(1292.93, 2168.24) scale(8.550308192731901) rotate(0, 2583.475, 1407.185)"><g ></g><g ><line x1="0" y1="0" x2="5166.951136855472" y2="0" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="0" x2="0" y2="2814.370905039952" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="70.61720184398774" x2="5166.951136855472" y2="70.61720184398774" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="347.4938448942701" x2="5166.951136855472" y2="347.4938448942701" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="761.111046738258" x2="5166.951136855472" y2="761.111046738258" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="1086.98768978854" x2="5166.951136855472" y2="1086.98768978854" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="1461.8643328388223" x2="5166.951136855472" y2="1461.8643328388223" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="1787.740975889105" x2="5166.951136855472" y2="1787.740975889105" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="2113.617618939387" x2="5166.951136855472" y2="2113.617618939387" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="2488.4942619896688" x2="5166.951136855472" y2="2488.4942619896688" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="2814.370905039952" x2="5166.951136855472" y2="2814.370905039952" stroke="#a9a9a9" stroke-width="1" /><line x1="719.8051509440095" y1="0" x2="719.8051509440095" y2="2814.370905039952" stroke="#a9a9a9" stroke-width="1" /><line x1="1787.1317309879705" y1="0" x2="1787.1317309879705" y2="2814.370905039952" stroke="#a9a9a9" stroke-width="1" /><line x1="3835.977301991614" y1="0" x2="3835.977301991614" y2="2814.370905039952" stroke="#a9a9a9" stroke-width="1" /><line x1="5166.951136855472" y1="0" x2="5166.951136855472" y2="2814.370905039952" stroke="#a9a9a9" stroke-width="1" /></g><g ><text dy="20" y="-42" style='font: 20px "Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR; fill: #cccccc;' lengthAdjust="spacingAndGlyphs">Human values identified</text></g></g></g><g data-widget-id="3458764682869938720"><g width="719px" height="65px"  transform="translate(1292.92, 2168.24) scale(8.550308192731901) rotate(0, 359.5, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="226.458984375" textLength="226.458984375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Human Value</text></g></g></g><g data-widget-id="3458764682869938721"><g width="1067px" height="65px"  transform="translate(7447.48, 2168.24) scale(8.550308192731901) rotate(0, 533.5, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="192.26953125" textLength="192.26953125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Description</text></g></g></g><g data-widget-id="3458764682869938722"><g width="2048px" height="65px"  transform="translate(16573.45, 2168.24) scale(8.550308192731901) rotate(0, 1024, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="148.8515625" textLength="148.8515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Evidence</text></g></g></g><g data-widget-id="3458764682869938723"><g width="1330px" height="65px"  transform="translate(34091.71, 2168.24) scale(8.550308192731901) rotate(0, 665, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="158.44921875" textLength="158.44921875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Synthesis</text></g></g></g><g data-widget-id="3458764682869938724"><g width="719px" height="65px"  transform="translate(1292.92, 2772.04) scale(8.550308192731901) rotate(0, 359.5, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="374.009765625" textLength="374.009765625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Mutual understanding</text></g></g></g><g data-widget-id="3458764682869938725"><g width="1067px" height="163px"  transform="translate(7447.48, 2772.04) scale(8.550308192731901) rotate(0, 533.5, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="963.6328125" textLength="963.6328125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Participants repeatedly valued being understood by their </text><text xml:space="preserve" x="0" y="85" width="1058.23828125" textLength="1058.23828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >partner and reducing the need to guess what the other person </text><text xml:space="preserve" x="0" y="134" width="256.5703125" textLength="256.5703125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >means or feels.</text></g></g></g><g data-widget-id="3458764682869938726"><g width="2048px" height="261px"  transform="translate(16573.45, 2772.04) scale(8.550308192731901) rotate(0, 1024, 130.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1482.908203125" textLength="1482.908203125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P4: “I think it is the fastest way to solve a problem. Do not make the other person guess.”</text><text xml:space="preserve" x="0" y="134" width="1740.322265625" textLength="1740.322265625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P3: “We&#39;ve dated long enough to know that communicating is the best way to solve misunderstandings.”</text><text xml:space="preserve" x="0" y="232" width="1179.66796875" textLength="1179.66796875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P5: “Usually, I was the one who wanted him to understand how I felt...”</text></g></g></g><g data-widget-id="3458764682869938727"><g width="1330px" height="163px"  transform="translate(34091.71, 2772.04) scale(8.550308192731901) rotate(0, 665, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1266.1171875" textLength="1266.1171875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Mutual understanding is a core relationship value. Participants did not only </text><text xml:space="preserve" x="0" y="85" width="1256.853515625" textLength="1256.853515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >want their partner to notice an emotional signal; they wanted the meaning </text><text xml:space="preserve" x="0" y="134" width="788.23828125" textLength="788.23828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >behind the signal to be understood or clarified.</text></g></g></g><g data-widget-id="3458764682869938728"><g width="719px" height="65px"  transform="translate(1292.92, 5139.42) scale(8.550308192731901) rotate(0, 359.5, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="309.216796875" textLength="309.216796875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Care and empathy</text></g></g></g><g data-widget-id="3458764682869938729"><g width="1067px" height="163px"  transform="translate(7447.48, 5139.42) scale(8.550308192731901) rotate(0, 533.5, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="983.267578125" textLength="983.267578125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Participants described adjusting their own behaviour after </text><text xml:space="preserve" x="0" y="85" width="933.1875" textLength="933.1875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >noticing that their partner was stressed, upset, tired, or </text><text xml:space="preserve" x="0" y="134" width="408.251953125" textLength="408.251953125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >emotionally unavailable.</text></g></g></g><g data-widget-id="3458764682869938730"><g width="2048px" height="408px"  transform="translate(16573.45, 5139.42) scale(8.550308192731901) rotate(0, 1024, 204)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="2016.66796875" textLength="2016.66796875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P1: “I was asking him questions that I know he likes to talk about... So I was trying to do that, to kind of distract him from </text><text xml:space="preserve" x="0" y="85" width="459.703125" textLength="459.703125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >whatever was on his mind.”</text><text xml:space="preserve" x="0" y="183" width="1946.07421875" textLength="1946.07421875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P5: “If I can tell that they do not really want to talk, I might soften my attitude and give them more space so they feel </text><text xml:space="preserve" x="0" y="232" width="526.640625" textLength="526.640625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >more comfortable opening up.”</text><text xml:space="preserve" x="0" y="330" width="1915.2421875" textLength="1915.2421875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P4: “If we were walking and he seemed down, I would probably first ask what was wrong and care about what was </text><text xml:space="preserve" x="0" y="379" width="356.94140625" textLength="356.94140625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >happening with him.”</text></g></g></g><g data-widget-id="3458764682869938731"><g width="1330px" height="163px"  transform="translate(34091.71, 5139.42) scale(8.550308192731901) rotate(0, 665, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1164.744140625" textLength="1164.744140625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Care is expressed through adjustment. Recognising another person&#39;s </text><text xml:space="preserve" x="0" y="85" width="1249.189453125" textLength="1249.189453125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >emotional state becomes meaningful because it changes how participants </text><text xml:space="preserve" x="0" y="134" width="834.50390625" textLength="834.50390625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >approach, speak to, or give space to their partner.</text></g></g></g><g data-widget-id="3458764682869938732"><g width="719px" height="65px"  transform="translate(1292.92, 8675.98) scale(8.550308192731901) rotate(0, 359.5, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="619.13671875" textLength="619.13671875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Openness and direct communication</text></g></g></g><g data-widget-id="3458764682869938733"><g width="1067px" height="163px"  transform="translate(7447.48, 8675.98) scale(8.550308192731901) rotate(0, 533.5, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="884.654296875" textLength="884.654296875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Several participants valued explicitly communicating </text><text xml:space="preserve" x="0" y="85" width="948.19921875" textLength="948.19921875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >emotional states rather than leaving the partner to infer </text><text xml:space="preserve" x="0" y="134" width="457.453125" textLength="457.453125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >everything from behaviour.</text></g></g></g><g data-widget-id="3458764682869938734"><g width="2048px" height="261px"  transform="translate(16573.45, 8675.98) scale(8.550308192731901) rotate(0, 1024, 130.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1315.44140625" textLength="1315.44140625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P4: “I usually choose to say it directly.” / “Do not make the other person guess.”</text><text xml:space="preserve" x="0" y="134" width="1496.513671875" textLength="1496.513671875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P2: “Maybe each of us sometimes should let each other know about our emotional state.”</text><text xml:space="preserve" x="0" y="232" width="1439.208984375" textLength="1439.208984375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P3: “When I&#39;m moderately frustrated, I communicate. I&#39;m not consumed by my anger.”</text></g></g></g><g data-widget-id="3458764682869938735"><g width="1330px" height="114px"  transform="translate(34091.71, 8675.98) scale(8.550308192731901) rotate(0, 665, 57)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1313.54296875" textLength="1313.54296875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Participants generally saw explicit communication as the safest way to resolve </text><text xml:space="preserve" x="0" y="85" width="1296.650390625" textLength="1296.650390625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >uncertainty, especially when both people were calm enough to communicate.</text></g></g></g><g data-widget-id="3458764682869938736"><g width="719px" height="65px"  transform="translate(1292.92, 11462.32) scale(8.550308192731901) rotate(0, 359.5, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="530.89453125" textLength="530.89453125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Emotional autonomy and space</text></g></g></g><g data-widget-id="3458764682869938737"><g width="1067px" height="114px"  transform="translate(7447.48, 11462.32) scale(8.550308192731901) rotate(0, 533.5, 57)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1005.3984375" textLength="1005.3984375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Participants valued having time to process emotions before </text><text xml:space="preserve" x="0" y="85" width="279.791015625" textLength="279.791015625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >explaining them.</text></g></g></g><g data-widget-id="3458764682869938738"><g width="2048px" height="310px"  transform="translate(16573.45, 11462.32) scale(8.550308192731901) rotate(0, 1024, 155)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1977.908203125" textLength="1977.908203125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P1: “I always have a hard time talking about... the cause of what I&#39;m feeling, but I&#39;m okay with expressing when I&#39;m not </text><text xml:space="preserve" x="0" y="85" width="892.4765625" textLength="892.4765625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >okay.” / “I wouldn&#39;t really talk about it until I&#39;m ready.”</text><text xml:space="preserve" x="0" y="183" width="1485.263671875" textLength="1485.263671875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P5: “First, I want to calm myself down and also give the other person time to calm down.”</text><text xml:space="preserve" x="0" y="281" width="1666.845703125" textLength="1666.845703125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P6: “Even though the emotion has come down, that doesn&#39;t mean we can communicate right away.”</text></g></g></g><g data-widget-id="3458764682869938739"><g width="1330px" height="163px"  transform="translate(34091.71, 11462.32) scale(8.550308192731901) rotate(0, 665, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1266.205078125" textLength="1266.205078125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >There is a clear value tension between openness and emotional autonomy. </text><text xml:space="preserve" x="0" y="85" width="1306.828125" textLength="1306.828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Participants wanted emotional awareness, but this did not mean they wanted </text><text xml:space="preserve" x="0" y="134" width="806.37890625" textLength="806.37890625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >an obligation to explain everything immediately.</text></g></g></g><g data-widget-id="3458764682869938740"><g width="719px" height="114px"  transform="translate(1292.92, 14667.63) scale(8.550308192731901) rotate(0, 359.5, 57)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="541.458984375" textLength="541.458984375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Relational harmony and conflict </text><text xml:space="preserve" x="0" y="85" width="170.419921875" textLength="170.419921875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >avoidance</text></g></g></g><g data-widget-id="3458764682869938741"><g width="1067px" height="114px"  transform="translate(7447.48, 14667.63) scale(8.550308192731901) rotate(0, 533.5, 57)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1036.916015625" textLength="1036.916015625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Avoiding unnecessary escalation was repeatedly described as </text><text xml:space="preserve" x="0" y="85" width="178.20703125" textLength="178.20703125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >important.</text></g></g></g><g data-widget-id="3458764682869938742"><g width="2048px" height="310px"  transform="translate(16573.45, 14667.63) scale(8.550308192731901) rotate(0, 1024, 155)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="2004.099609375" textLength="2004.099609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P2: “I just think it&#39;s not a good time to discuss because he&#39;s not in a good mood. If I bring it up now, maybe we&#39;ll get into </text><text xml:space="preserve" x="0" y="85" width="243.73828125" textLength="243.73828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >conflict again.”</text><text xml:space="preserve" x="0" y="183" width="1888.365234375" textLength="1888.365234375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P1: “I would hold myself back from... talking about my side of things, because I just wanted the bickering to stop.”</text><text xml:space="preserve" x="0" y="281" width="1451.35546875" textLength="1451.35546875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P6: “Leaving isn&#39;t avoidance, and it isn&#39;t stonewalling — it&#39;s protecting the relationship.”</text></g></g></g><g data-widget-id="3458764682869938743"><g width="1330px" height="163px"  transform="translate(34091.71, 14667.63) scale(8.550308192731901) rotate(0, 665, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1322.138671875" textLength="1322.138671875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Protecting the relationship from escalation is a strong value. Participants often </text><text xml:space="preserve" x="0" y="85" width="1253.056640625" textLength="1253.056640625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >changed timing, tone, or physical proximity when they believed continuing </text><text xml:space="preserve" x="0" y="134" width="372.234375" textLength="372.234375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >could turn into a fight.</text></g></g></g><g data-widget-id="3458764682869938744"><g width="719px" height="65px"  transform="translate(1292.92, 17453.98) scale(8.550308192731901) rotate(0, 359.5, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="577.0546875" textLength="577.0546875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Self-​awareness and self-​regulation</text></g></g></g><g data-widget-id="3458764682869938745"><g width="1067px" height="114px"  transform="translate(7447.48, 17453.98) scale(8.550308192731901) rotate(0, 533.5, 57)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1003.517578125" textLength="1003.517578125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Participants valued being aware of their own state, not only </text><text xml:space="preserve" x="0" y="85" width="249.345703125" textLength="249.345703125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >their partner&#39;s.</text></g></g></g><g data-widget-id="3458764682869938746"><g width="2048px" height="310px"  transform="translate(16573.45, 17453.98) scale(8.550308192731901) rotate(0, 1024, 155)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="2020.271484375" textLength="2020.271484375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P3: “If I&#39;m moderately frustrated, I think I&#39;m sober enough to tell my partner...” / “But when it&#39;s severe, I kind of get lost in </text><text xml:space="preserve" x="0" y="85" width="260.578125" textLength="260.578125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >my emotions...”</text><text xml:space="preserve" x="0" y="183" width="1813.359375" textLength="1813.359375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P6: “Being aware of your own state can improve the relationship.” / “The moment I see it, I&#39;d hit the brakes...”</text><text xml:space="preserve" x="0" y="281" width="1794.041015625" textLength="1794.041015625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P5: “I knew I was extremely upset, and I knew that if I started talking immediately, it would come out badly.”</text></g></g></g><g data-widget-id="3458764682869938747"><g width="1330px" height="163px"  transform="translate(34091.71, 17453.98) scale(8.550308192731901) rotate(0, 665, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1106.12109375" textLength="1106.12109375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Emotional awareness is two-​sided. Participants&#39; ability to respond </text><text xml:space="preserve" x="0" y="85" width="1284.732421875" textLength="1284.732421875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >constructively depended partly on recognising their own emotional intensity </text><text xml:space="preserve" x="0" y="134" width="501.8203125" textLength="501.8203125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >and capacity to communicate.</text></g></g></g><g data-widget-id="3458764682869938748"><g width="719px" height="65px"  transform="translate(1292.92, 20240.32) scale(8.550308192731901) rotate(0, 359.5, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="617.23828125" textLength="617.23828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Reciprocity and shared responsibility</text></g></g></g><g data-widget-id="3458764682869938749"><g width="1067px" height="114px"  transform="translate(7447.48, 20240.32) scale(8.550308192731901) rotate(0, 533.5, 57)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1051.171875" textLength="1051.171875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Participants described emotional understanding as something </text><text xml:space="preserve" x="0" y="85" width="592.5234375" textLength="592.5234375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >both partners should contribute to.</text></g></g></g><g data-widget-id="3458764682869938750"><g width="2048px" height="310px"  transform="translate(16573.45, 20240.32) scale(8.550308192731901) rotate(0, 1024, 155)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1496.513671875" textLength="1496.513671875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P2: “Maybe each of us sometimes should let each other know about our emotional state.”</text><text xml:space="preserve" x="0" y="134" width="2020.81640625" textLength="2020.81640625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P3: “If both partners are angry, they&#39;ll both turn the figure away. It kind of makes both partners think, &#39;Maybe it&#39;s not just </text><text xml:space="preserve" x="0" y="183" width="994.130859375" textLength="994.130859375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >one-​way, but two ways. Maybe I did something wrong too.&#39;”</text><text xml:space="preserve" x="0" y="281" width="1510.875" textLength="1510.875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P6: “Being aware of yourself and being aware of your partner&#39;s state are both important...”</text></g></g></g><g data-widget-id="3458764682869938751"><g width="1330px" height="163px"  transform="translate(34091.71, 20240.32) scale(8.550308192731901) rotate(0, 665, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1303.681640625" textLength="1303.681640625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Participants did not frame emotional awareness as one person monitoring or </text><text xml:space="preserve" x="0" y="85" width="1081.107421875" textLength="1081.107421875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >managing the other. They valued mutual awareness and mutual </text><text xml:space="preserve" x="0" y="134" width="234.052734375" textLength="234.052734375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >responsibility.</text></g></g></g><g data-widget-id="3458764682869938752"><g width="719px" height="65px"  transform="translate(1292.92, 23445.63) scale(8.550308192731901) rotate(0, 359.5, 32.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="460.669921875" textLength="460.669921875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Presence and attentiveness</text></g></g></g><g data-widget-id="3458764682869938753"><g width="1067px" height="114px"  transform="translate(7447.48, 23445.63) scale(8.550308192731901) rotate(0, 533.5, 57)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="979.734375" textLength="979.734375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Being emotionally available was connected with attention, </text><text xml:space="preserve" x="0" y="85" width="728.9296875" textLength="728.9296875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >shared activity, and being present together.</text></g></g></g><g data-widget-id="3458764682869938754"><g width="2048px" height="310px"  transform="translate(16573.45, 23445.63) scale(8.550308192731901) rotate(0, 1024, 155)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1918.8984375" textLength="1918.8984375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P6: “Her attention wasn&#39;t on her computer. As soon as I got home from work, she rushed right over to talk to me...”</text><text xml:space="preserve" x="0" y="134" width="1670.23828125" textLength="1670.23828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P4: “We were doing something together. We were walking together and sharing the same situation.”</text><text xml:space="preserve" x="0" y="232" width="1949.396484375" textLength="1949.396484375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >P5: “I think it is more about both people putting things down and actually being present together. For example, both </text><text xml:space="preserve" x="0" y="281" width="593.525390625" textLength="593.525390625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >people putting their phones down.”</text></g></g></g><g data-widget-id="3458764682869938755"><g width="1330px" height="163px"  transform="translate(34091.71, 23445.63) scale(8.550308192731901) rotate(0, 665, 81.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="36" width="1181.126953125" textLength="1181.126953125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >Presence is not only physical co-​location. Participants associated good </text><text xml:space="preserve" x="0" y="85" width="1270.037109375" textLength="1270.037109375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >moments for emotional communication with shared attention and reduced </text><text xml:space="preserve" x="0" y="134" width="188.138671875" textLength="188.138671875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="36" 
+				fill="#1a1a1a" direction="ltr" >distraction.</text></g></g></g><g data-widget-id="3458764682870477749"><use xlink:href="#StickerType1R" transform="translate(9152.94, 30418.42) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(8953.98, 30299.04) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="2.929107666015625" y="40" width="301.8617706298828" textLength="301.8617706298828" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Theme 1 - Emotional states </text><text xml:space="preserve" x="22.432098388671875" y="70" width="262.8557891845703" textLength="262.8557891845703" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">are recognised through </text><text xml:space="preserve" x="13.786102294921875" y="100" width="280.1477813720703" textLength="280.1477813720703" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">changes from a partner’s </text><text xml:space="preserve" x="52.83605194091797" y="130" width="196.32789611816406" textLength="196.32789611816406" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">normal behaviour</text></g></g></g><g data-widget-id="3458764682870671480"><use xlink:href="#StickerType1R" transform="translate(9152.94, 41987.19) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(8953.98, 41867.82) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="17" width="282.44776916503906" textLength="282.44776916503906" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">What signals do people use to read </text><text xml:space="preserve" x="0" y="39" width="254.19174194335938" textLength="254.19174194335938" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">their partner’s emotional state?</text><text xml:space="preserve" x="0" y="61" width="262.7036590576172" textLength="262.7036590576172" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >Participants used changes in facial </text><text xml:space="preserve" x="0" y="83" width="299.6795196533203" textLength="299.6795196533203" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >expression, silence, responsiveness, eye</text><text xml:space="preserve" x="0" y="105" width="283.63160705566406" textLength="283.63160705566406" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >contact, tone, phone use, energy and </text><text xml:space="preserve" x="0" y="127" width="262.6876220703125" textLength="262.6876220703125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >general atmosphere to judge their </text><text xml:space="preserve" x="0" y="149" width="193.40773010253906" textLength="193.40773010253906" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >partner’s emotional state.</text></g></g></g><g data-widget-id="3458764682870671482"><g width="0px" height="2496.29px"  transform="translate(15917.51, 39371.53) scale(1) rotate(0, 0, 1248.145)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 2448.000713257686" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 2496.2916223485954)  rotate(90) "  /> </g></g><g data-widget-id="3458764682870671916"><use xlink:href="#StickerType1R" transform="translate(9152.94, 54110.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#fff79e"/><g width="350px" height="228px"  transform="translate(8953.98, 53990.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="18" width="212.53958129882812" textLength="212.53958129882812" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P1: “He’s not as responsive as he normally is.”</text><text xml:space="preserve" x="0" y="46" width="301.14935302734375" textLength="301.14935302734375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P2: “It’s not like the way he usually is, so I would kind of get that </text><text xml:space="preserve" x="0" y="60" width="34.15992736816406" textLength="34.15992736816406" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >signal.”</text><text xml:space="preserve" x="0" y="88" width="300.6794128417969" textLength="300.6794128417969" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P3: “He stopped talking to me. He was avoiding eye contact and </text><text xml:space="preserve" x="0" y="102" width="142.58970642089844" textLength="142.58970642089844" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >was just looking at his phone.”</text><text xml:space="preserve" x="0" y="130" width="300.64947509765625" textLength="300.64947509765625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P6: “When the response I get back is different, that’s how I know</text><text xml:space="preserve" x="0" y="144" width="197.2496337890625" textLength="197.2496337890625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >whether her current state is good or bad.”</text></g></g></g><g data-widget-id="3458764682870671918"><g width="0px" height="3050.37px"  transform="translate(15917.51, 50940.3) scale(1) rotate(0, 0, 1525.185)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3002.0793708812994" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 3050.3702799722087)  rotate(90) "  /> </g></g><g data-widget-id="3458764682870928062"><use xlink:href="#StickerType1R" transform="translate(25347.27, 30418.42) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(25148.31, 30299.04) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="2.9170761108398438" y="32" width="296.1658477783203" textLength="296.1658477783203" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Theme 2 - People often</text><text xml:space="preserve" x="28.592063903808594" y="68" width="251.57586669921875" textLength="251.57586669921875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">know something is </text><text xml:space="preserve" x="31.309059143066406" y="104" width="246.14187622070312" textLength="246.14187622070312" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">wrong before they </text><text xml:space="preserve" x="19.62206268310547" y="140" width="262.75587463378906" textLength="262.75587463378906" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">know what it means</text></g></g></g><g data-widget-id="3458764682870928063"><use xlink:href="#StickerType2R" transform="translate(25347.27, 41987.19) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(25148.31, 41867.82) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="17" width="299.6637420654297" textLength="299.6637420654297" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">How accurate or confident are people</text><text xml:space="preserve" x="0" y="39" width="204.591796875" textLength="204.591796875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">in reading their partner’s </text><text xml:space="preserve" x="0" y="61" width="82.94393920898438" textLength="82.94393920898438" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">emotions?</text><text xml:space="preserve" x="82.94393920898438" y="61" width="209.90370178222656" textLength="209.90370178222656" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >Participants could often tell </text><text xml:space="preserve" x="0" y="83" width="296.7676086425781" textLength="296.7676086425781" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >that something had changed, but were </text><text xml:space="preserve" x="0" y="105" width="298.9595489501953" textLength="298.9595489501953" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >less certain about the exact emotion, its</text><text xml:space="preserve" x="0" y="127" width="263.3435974121094" textLength="263.3435974121094" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >cause, or whether it was related to </text><text xml:space="preserve" x="0" y="149" width="43.935943603515625" textLength="43.935943603515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >them.</text></g></g></g><g data-widget-id="3458764682870928064"><g width="0px" height="2496.29px"  transform="translate(32111.84, 39371.53) scale(1) rotate(0, 0, 1248.145)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 2448.000713257686" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 2496.2916223485954)  rotate(90) "  /> </g></g><g data-widget-id="3458764682870928065"><use xlink:href="#StickerType1R" transform="translate(25347.27, 54110.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#fff79e"/><g width="350px" height="228px"  transform="translate(25148.31, 53990.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="22" width="282.7315216064453" textLength="282.7315216064453" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >P1: “I could just tell something is off. I didn’t know </text><text xml:space="preserve" x="0" y="39" width="209.72364807128906" textLength="209.72364807128906" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >exactly what it was until I asked him.”</text><text xml:space="preserve" x="0" y="73" width="278.48353576660156" textLength="278.48353576660156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >P3: “Sometimes I might just be imagining things.”</text><text xml:space="preserve" x="0" y="107" width="301.79949951171875" textLength="301.79949951171875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >P5: “I would think something was wrong. But then he </text><text xml:space="preserve" x="0" y="124" width="287.60353088378906" textLength="287.60353088378906" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >would say nothing was wrong... I was overthinking </text><text xml:space="preserve" x="0" y="141" width="14.95196533203125" textLength="14.95196533203125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >it.”</text></g></g></g><g data-widget-id="3458764682870928066"><g width="0px" height="3050.37px"  transform="translate(32111.84, 50940.3) scale(1) rotate(0, 0, 1525.185)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3002.0793708812994" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 3050.3702799722087)  rotate(90) "  /> </g></g><g data-widget-id="3458764682870928687"><use xlink:href="#StickerType2R" transform="translate(41541.33, 30418.42) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(41342.37, 30299.04) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="4.924095153808594" y="36" width="298.3917999267578" textLength="298.3917999267578" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Theme 3 - Checking with </text><text xml:space="preserve" x="12.616081237792969" y="69" width="283.00782775878906" textLength="283.00782775878906" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">the partner is the main </text><text xml:space="preserve" x="0.652069091796875" y="102" width="300.69586181640625" textLength="300.69586181640625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">way to correct emotional</text><text xml:space="preserve" x="44.200042724609375" y="135" width="213.59991455078125" textLength="213.59991455078125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">misinterpretation</text></g></g></g><g data-widget-id="3458764682870928688"><use xlink:href="#StickerType2R" transform="translate(41541.33, 41987.19) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(41342.37, 41867.82) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="22" width="291.2557678222656" textLength="291.2557678222656" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">How do people find out they were wrong, </text><text xml:space="preserve" x="0" y="42" width="272.64971923828125" textLength="272.64971923828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">and what happens when they misread?</text><text xml:space="preserve" x="0" y="62" width="242.1157684326172" textLength="242.1157684326172" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Participants commonly verified their </text><text xml:space="preserve" x="0" y="82" width="290.3037109375" textLength="290.3037109375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >interpretation by asking. Tentative checking </text><text xml:space="preserve" x="0" y="102" width="265.9857482910156" textLength="265.9857482910156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >usually allowed misunderstanding to be </text><text xml:space="preserve" x="0" y="122" width="283.7237091064453" textLength="283.7237091064453" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >corrected, while treating an assumption as </text><text xml:space="preserve" x="0" y="142" width="208.501708984375" textLength="208.501708984375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >fact could contribute to conflict.</text></g></g></g><g data-widget-id="3458764682870928689"><g width="0px" height="2496.29px"  transform="translate(48305.9, 39371.53) scale(1) rotate(0, 0, 1248.145)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 2448.000713257686" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 2496.2916223485954)  rotate(90) "  /> </g></g><g data-widget-id="3458764682870928690"><use xlink:href="#StickerType2R" transform="translate(41541.33, 54110.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#fff79e"/><g width="350px" height="228px"  transform="translate(41342.37, 53990.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="22" width="272.00352478027344" textLength="272.00352478027344" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >P3: “I learned to just simply ask him... ‘I feel that </text><text xml:space="preserve" x="0" y="39" width="170.27969360351562" textLength="170.27969360351562" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >you’re unhappy. Is that right?’”</text><text xml:space="preserve" x="0" y="73" width="294.08349609375" textLength="294.08349609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >P2: “If I misread his feelings, but I ask him about his </text><text xml:space="preserve" x="0" y="90" width="264.56353759765625" textLength="264.56353759765625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >feelings first, then we’re usually cool with that.”</text><text xml:space="preserve" x="0" y="124" width="281.03953552246094" textLength="281.03953552246094" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >P2: “If... I directly say, ‘Why are you in this mood?’, </text><text xml:space="preserve" x="0" y="141" width="176.14772033691406" textLength="176.14772033691406" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >then sometimes we will argue.”</text></g></g></g><g data-widget-id="3458764682870928691"><g width="0px" height="3050.37px"  transform="translate(48305.9, 50940.3) scale(1) rotate(0, 0, 1525.185)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3002.0793708812994" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 3050.3702799722087)  rotate(90) "  /> </g></g><g data-widget-id="3458764682870928890"><use xlink:href="#StickerType1R" transform="translate(57735.39, 30418.42) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(57536.43, 30299.04) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="6.3620758056640625" y="32" width="296.0358428955078" textLength="296.0358428955078" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Theme 4 - Recognising </text><text xml:space="preserve" x="11.172080993652344" y="68" width="286.41583251953125" textLength="286.41583251953125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">a partner’s emotional </text><text xml:space="preserve" x="29.541061401367188" y="104" width="249.67787170410156" textLength="249.67787170410156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">state changes how </text><text xml:space="preserve" x="4.919075012207031" y="140" width="292.16184997558594" textLength="292.16184997558594" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">people approach them</text></g></g></g><g data-widget-id="3458764682870928891"><use xlink:href="#StickerType2R" transform="translate(57735.39, 41987.19) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(57536.43, 41867.82) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="32" width="292.13775634765625" textLength="292.13775634765625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">What do people do after noticing a mood?</text><text xml:space="preserve" x="0" y="52" width="240.14178466796875" textLength="240.14178466796875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Mood awareness directly influenced </text><text xml:space="preserve" x="0" y="72" width="287.20970153808594" textLength="287.20970153808594" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >participants’ behaviour. They softened their </text><text xml:space="preserve" x="0" y="92" width="264.5017547607422" textLength="264.5017547607422" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >tone, became more careful, gave space, </text><text xml:space="preserve" x="0" y="112" width="223.91580200195312" textLength="223.91580200195312" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >waited, used small talk, increased </text><text xml:space="preserve" x="0" y="132" width="262.5277099609375" textLength="262.5277099609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >engagement, or stopped conversations.</text></g></g></g><g data-widget-id="3458764682870928892"><g width="0px" height="2496.29px"  transform="translate(64499.96, 39371.53) scale(1) rotate(0, 0, 1248.145)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 2448.000713257686" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 2496.2916223485954)  rotate(90) "  /> </g></g><g data-widget-id="3458764682870928893"><use xlink:href="#StickerType2R" transform="translate(57735.39, 54110.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#fff79e"/><g width="350px" height="228px"  transform="translate(57536.43, 53990.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="32" width="297.4593811035156" textLength="297.4593811035156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P3: “I tried to be careful with my words. I tried to approach him </text><text xml:space="preserve" x="0" y="46" width="62.69990539550781" textLength="62.69990539550781" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >more gently.”</text><text xml:space="preserve" x="0" y="74" width="276.8494873046875" textLength="276.8494873046875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P5: “I might soften my attitude and give them more space.”</text><text xml:space="preserve" x="0" y="102" width="270.19944763183594" textLength="270.19944763183594" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P2: “I probably would just pause and wait until next time.”</text><text xml:space="preserve" x="0" y="130" width="277.1494598388672" textLength="277.1494598388672" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P6: “Normally, if she’s busy, I won’t go over and bother her.”</text></g></g></g><g data-widget-id="3458764682870928894"><g width="0px" height="3050.37px"  transform="translate(64499.96, 50940.3) scale(1) rotate(0, 0, 1525.185)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3002.0793708812994" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 3050.3702799722087)  rotate(90) "  /> </g></g><g data-widget-id="3458764682871119907"><use xlink:href="#StickerType1R" transform="translate(73929.45, 30418.42) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(73730.49, 30299.04) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="2.522125244140625" y="40" width="296.95574951171875" textLength="296.95574951171875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Theme 5 - The right time to</text><text xml:space="preserve" x="9.397102355957031" y="70" width="288.92578125" textLength="288.92578125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">communicate depends on </text><text xml:space="preserve" x="22.01410675048828" y="100" width="263.6917724609375" textLength="263.6917724609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">both people’s readiness </text><text xml:space="preserve" x="56.68608856201172" y="130" width="188.62782287597656" textLength="188.62782287597656" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">and the situation</text></g></g></g><g data-widget-id="3458764682871119908"><use xlink:href="#StickerType1R" transform="translate(73929.45, 41987.19) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(73730.49, 41867.82) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="17" width="286.2557678222656" textLength="286.2557678222656" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">How does response change in more </text><text xml:space="preserve" x="0" y="39" width="162.91184997558594" textLength="162.91184997558594" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">sensitive situations?</text><text xml:space="preserve" x="0" y="61" width="300.8475646972656" textLength="300.8475646972656" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >For sensitive conversations, participants</text><text xml:space="preserve" x="0" y="83" width="281.10357666015625" textLength="281.10357666015625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >considered more than their partner’s </text><text xml:space="preserve" x="0" y="105" width="273.56764221191406" textLength="273.56764221191406" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >mood. Their own readiness, privacy, </text><text xml:space="preserve" x="0" y="127" width="285.8716125488281" textLength="285.8716125488281" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >shared attention, calmness, and what </text><text xml:space="preserve" x="0" y="149" width="292.20762634277344" textLength="292.20762634277344" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="16" 
+				fill="#1a1a1a" direction="ltr" >both people were doing also mattered.</text></g></g></g><g data-widget-id="3458764682871119909"><g width="0px" height="2496.29px"  transform="translate(80694.02, 39371.53) scale(1) rotate(0, 0, 1248.145)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 2448.000713257686" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 2496.2916223485954)  rotate(90) "  /> </g></g><g data-widget-id="3458764682871119910"><use xlink:href="#StickerType2R" transform="translate(73929.45, 54110.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#fff79e"/><g width="350px" height="228px"  transform="translate(73730.49, 53990.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="18" width="190.65956115722656" textLength="190.65956115722656" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P1: “I wasn’t really ready to talk about it.”</text><text xml:space="preserve" x="0" y="46" width="294.2394256591797" textLength="294.2394256591797" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P3: “When we can be in a private space... and when it feels like </text><text xml:space="preserve" x="0" y="60" width="177.94964599609375" textLength="177.94964599609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >the other person wants to talk to me.”</text><text xml:space="preserve" x="0" y="88" width="264.3494567871094" textLength="264.3494567871094" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P4: “Whether both of us are in that shared situation and </text><text xml:space="preserve" x="0" y="102" width="222.8295440673828" textLength="222.8295440673828" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >whether I personally feel ready to talk about it.”</text><text xml:space="preserve" x="0" y="130" width="266.6894836425781" textLength="266.6894836425781" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >P5: “Both people putting things down and actually being </text><text xml:space="preserve" x="0" y="144" width="84.21986389160156" textLength="84.21986389160156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="10" 
+				fill="#1a1a1a" direction="ltr" >present together.”</text></g></g></g><g data-widget-id="3458764682871119911"><g width="0px" height="3050.37px"  transform="translate(80694.02, 50940.3) scale(1) rotate(0, 0, 1525.185)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3002.0793708812994" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 3050.3702799722087)  rotate(90) "  /> </g></g><g data-widget-id="3458764682871222395"><g width="1037.72px" height="100px"  transform="translate(8953.91, 113924.92) scale(53.52708852900823) rotate(0, 518.86, 50)"><svg
+	width="1037.72"
+	height="100"
+	shape-border-width="shape-background"
+	style="width:1037.72px; height: 100px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="923963400548">
+		<rect
+			x="0"
+			y="0"
+			width="1037.72"
+			height="100"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="1037.72"
+			height="100"
+			rx="0"
+			ry="0"
+			clip-path="url(#923963400548)"
+		></rect>
+	</g>
+</svg>
+</g><g width="55546.13030832243px" height="5352.708852900823px"  transform="translate(8953.91, 113924.92) rotate(0, 27773.065154161213, 2676.3544264504117)"><g transform="translate(0, 0)"><text xml:space="preserve" x="0" y="749.3792394061153" width="10257.491796927285" textLength="10257.491796927285" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" >Common interaction pattern:</text><text xml:space="preserve" x="0" y="1819.9210099862798" width="54610.96143269036" textLength="54610.96143269036" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" >Notice a change → form an interpretation → check or seek confirmation → adjust their behaviour → decide whether to continue, pause, or raise something</text><text xml:space="preserve" x="0" y="3961.004551146609" width="53480.894298768006" textLength="53480.894298768006" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" font-weight="bold">Couples often notice emotional change before they understand what it means. Because their interpretation influences how they respond, they </text><text xml:space="preserve" x="0" y="5031.546321726774" width="51677.89244220699" textLength="51677.89244220699" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" font-weight="bold">benefit from checking uncertain interpretations and considering both partners’ readiness before deciding how and when to communicate.</text></g></g></g><g data-widget-id="3458764682873146457"><use xlink:href="#StickerType1R" transform="translate(9152.94, 67217.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(8953.98, 67097.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="25" width="202.24588012695312" textLength="202.24588012695312" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >People understand </text><text xml:space="preserve" x="0" y="55" width="232.86984252929688" textLength="232.86984252929688" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >emotional changes by </text><text xml:space="preserve" x="0" y="85" width="199.47389221191406" textLength="199.47389221191406" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >comparing current </text><text xml:space="preserve" x="0" y="115" width="300.95977783203125" textLength="300.95977783203125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >behaviour with what is usual </text><text xml:space="preserve" x="0" y="145" width="170.47787475585938" textLength="170.47787475585938" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >for their partner.</text></g></g></g><g data-widget-id="3458764682873146458"><g width="0px" height="4034.52px"  transform="translate(15917.51, 63063.16) scale(1) rotate(0, 0, 2017.26)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3986.224927733499" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4034.515836824401)  rotate(90) "  /> </g></g><g data-widget-id="3458764682873476240"><use xlink:href="#StickerType2R" transform="translate(9152.94, 80972.21) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(8953.98, 80852.84) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="25" width="231.2198486328125" textLength="231.2198486328125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >Support awareness of </text><text xml:space="preserve" x="0" y="55" width="295.1297912597656" textLength="295.1297912597656" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >changes in a partner’s usual </text><text xml:space="preserve" x="0" y="85" width="250.9318389892578" textLength="250.9318389892578" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >behaviour while leaving </text><text xml:space="preserve" x="0" y="115" width="247.5878143310547" textLength="247.5878143310547" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >room for the partner to </text><text xml:space="preserve" x="0" y="145" width="211.72781372070312" textLength="211.72781372070312" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >clarify how they feel.</text></g></g></g><g data-widget-id="3458764682873476241"><g width="0px" height="4682.68px"  transform="translate(15917.51, 76170.16) scale(1) rotate(0, 0, 2341.34)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 2318.158051846687 Q 0 2318.1580518466944 7.275957614183426e-12 2318.1580518466944 L 7.275957614183426e-12 2318.1580518466944 Q 1.4551915228366852e-11 2318.1580518466944 1.4551915228366852e-11 2318.1580518467017 L 1.4551915228366852e-11 4634.388830966127" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.679740057036)  rotate(90) "  /> </g></g><g data-widget-id="3458764682873476826"><use xlink:href="#StickerType2R" transform="translate(25347.27, 67217.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(25148.31, 67097.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="40" width="295.8777618408203" textLength="295.8777618408203" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >People can often notice that </text><text xml:space="preserve" x="0" y="70" width="301.0478057861328" textLength="301.0478057861328" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >something has changed, but </text><text xml:space="preserve" x="0" y="100" width="251.4817657470703" textLength="251.4817657470703" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >may not know the exact </text><text xml:space="preserve" x="0" y="130" width="185.98788452148438" textLength="185.98788452148438" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >emotion or cause.</text></g></g></g><g data-widget-id="3458764682873476827"><g width="0px" height="4034.52px"  transform="translate(32111.84, 63063.16) scale(1) rotate(0, 0, 2017.26)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3986.224927733499" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4034.515836824401)  rotate(90) "  /> </g></g><g data-widget-id="3458764682873702990"><use xlink:href="#StickerType2R" transform="translate(25347.27, 80972.21) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(25148.31, 80852.84) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="32" width="224.97784423828125" textLength="224.97784423828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" >Support people in </text><text xml:space="preserve" x="0" y="68" width="243.43785095214844" textLength="243.43785095214844" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" >recognising that an </text><text xml:space="preserve" x="0" y="104" width="286.18186950683594" textLength="286.18186950683594" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" >emotional change may </text><text xml:space="preserve" x="0" y="140" width="288.2878112792969" textLength="288.2878112792969" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="26" 
+				fill="#1a1a1a" direction="ltr" >be uncertain or unclear.</text></g></g></g><g data-widget-id="3458764682873702991"><g width="0px" height="4682.68px"  transform="translate(32111.84, 76170.16) scale(1) rotate(0, 0, 2341.34)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 4634.388830966127" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.679740057036)  rotate(90) "  /> </g></g><g data-widget-id="3458764682873703388"><use xlink:href="#StickerType2R" transform="translate(41541.33, 67217.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(41342.37, 67097.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="25" width="279.6197814941406" textLength="279.6197814941406" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >Asking the partner directly </text><text xml:space="preserve" x="0" y="55" width="285.559814453125" textLength="285.559814453125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >helps confirm or correct an </text><text xml:space="preserve" x="0" y="85" width="260.36981201171875" textLength="260.36981201171875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >emotional interpretation </text><text xml:space="preserve" x="0" y="115" width="210.03384399414062" textLength="210.03384399414062" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >before it becomes a </text><text xml:space="preserve" x="0" y="145" width="195.64590454101562" textLength="195.64590454101562" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >misunderstanding.</text></g></g></g><g data-widget-id="3458764682873703389"><g width="0px" height="4034.52px"  transform="translate(48305.9, 63063.16) scale(1) rotate(0, 0, 2017.26)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3986.224927733499" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4034.515836824401)  rotate(90) "  /> </g></g><g data-widget-id="3458764682873703407"><use xlink:href="#StickerType2R" transform="translate(41541.33, 80972.21) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(41342.37, 80852.84) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="40" width="255.68385314941406" textLength="255.68385314941406" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >Support simple and non-​</text><text xml:space="preserve" x="0" y="70" width="298.53981018066406" textLength="298.53981018066406" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >accusatory ways for partners</text><text xml:space="preserve" x="0" y="100" width="254.0778045654297" textLength="254.0778045654297" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >to check and clarify how </text><text xml:space="preserve" x="0" y="130" width="215.3798370361328" textLength="215.3798370361328" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >each other is feeling.</text></g></g></g><g data-widget-id="3458764682873703409"><g width="0px" height="4682.68px"  transform="translate(48305.9, 76170.16) scale(1) rotate(0, 0, 2341.34)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 4634.388830966127" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.679740057036)  rotate(90) "  /> </g></g><g data-widget-id="3458764682873862070"><use xlink:href="#StickerType2R" transform="translate(57735.39, 67217.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(57536.43, 67097.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="25" width="173.05186462402344" textLength="173.05186462402344" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >People use their </text><text xml:space="preserve" x="0" y="55" width="301.66380310058594" textLength="301.66380310058594" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >understanding of a partner’s </text><text xml:space="preserve" x="0" y="85" width="263.7577819824219" textLength="263.7577819824219" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >emotional state to adjust </text><text xml:space="preserve" x="0" y="115" width="297.3957824707031" textLength="297.3957824707031" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >how they speak, respond, or </text><text xml:space="preserve" x="0" y="145" width="113.783935546875" textLength="113.783935546875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >give space.</text></g></g></g><g data-widget-id="3458764682873862071"><g width="0px" height="4034.52px"  transform="translate(64499.96, 63063.16) scale(1) rotate(0, 0, 2017.26)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3986.224927733499" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4034.515836824401)  rotate(90) "  /> </g></g><g data-widget-id="3458764682873862356"><use xlink:href="#StickerType2R" transform="translate(57735.39, 80972.21) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(57536.43, 80852.84) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="36" width="207.6718292236328" textLength="207.6718292236328" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >Support people in </text><text xml:space="preserve" x="0" y="69" width="283.15174865722656" textLength="283.15174865722656" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >choosing an appropriate </text><text xml:space="preserve" x="0" y="102" width="268.6077575683594" textLength="268.6077575683594" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >way to respond to their </text><text xml:space="preserve" x="0" y="135" width="290.1117248535156" textLength="290.1117248535156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >partner’s emotional state.</text></g></g></g><g data-widget-id="3458764682873862357"><g width="0px" height="4682.68px"  transform="translate(64499.96, 76170.16) scale(1) rotate(0, 0, 2341.34)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 4634.388830966127" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.679740057036)  rotate(90) "  /> </g></g><g data-widget-id="3458764682873862427"><use xlink:href="#StickerType2R" transform="translate(73929.45, 67217.05) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(73730.49, 67097.67) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="25" width="301.1357879638672" textLength="301.1357879638672" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >Whether a conversation feels</text><text xml:space="preserve" x="0" y="55" width="255.94786071777344" textLength="255.94786071777344" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >appropriate depends on </text><text xml:space="preserve" x="0" y="85" width="262.7458190917969" textLength="262.7458190917969" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >both partners’ emotional </text><text xml:space="preserve" x="0" y="115" width="249.039794921875" textLength="249.039794921875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >readiness as well as the </text><text xml:space="preserve" x="0" y="145" width="217.27186584472656" textLength="217.27186584472656" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >surrounding context.</text></g></g></g><g data-widget-id="3458764682873862428"><g width="0px" height="4034.52px"  transform="translate(80694.02, 63063.16) scale(1) rotate(0, 0, 2017.26)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 3986.2249277334918" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4034.515836824401)  rotate(90) "  /> </g></g><g data-widget-id="3458764682873862483"><use xlink:href="#StickerType2R" transform="translate(73929.45, 80972.21) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#d1f09f"/><g width="350px" height="228px"  transform="translate(73730.49, 80852.84) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="25" width="199.1218719482422" textLength="199.1218719482422" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >Support couples in </text><text xml:space="preserve" x="0" y="55" width="279.4218292236328" textLength="279.4218292236328" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >considering both partners’ </text><text xml:space="preserve" x="0" y="85" width="232.1438446044922" textLength="232.1438446044922" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >readiness and current </text><text xml:space="preserve" x="0" y="115" width="296.4057922363281" textLength="296.4057922363281" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >context when deciding when</text><text xml:space="preserve" x="0" y="145" width="173.99789428710938" textLength="173.99789428710938" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >to communicate.</text></g></g></g><g data-widget-id="3458764682873862484"><g width="0px" height="4682.68px"  transform="translate(80694.02, 76170.16) scale(1) rotate(0, 0, 2341.34)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 4634.388830966127" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.679740057036)  rotate(90) "  /> </g></g><g data-widget-id="3458764682876651714"><g width="1037.72px" height="260px"  transform="translate(8953.91, 122768.65) scale(53.52708852900823) rotate(0, 518.86, 130)"><svg
+	width="1037.72"
+	height="260"
+	shape-border-width="shape-background"
+	style="width:1037.72px; height: 260px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="855586103010">
+		<rect
+			x="0"
+			y="0"
+			width="1037.72"
+			height="260"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="1037.72"
+			height="260"
+			rx="0"
+			ry="0"
+			clip-path="url(#855586103010)"
+		></rect>
+	</g>
+</svg>
+</g><g width="55546.13030832243px" height="13917.04301754214px"  transform="translate(8953.91, 122768.65) rotate(0, 27773.065154161213, 6958.52150877107)"><g transform="translate(0, 0)"><text xml:space="preserve" x="0" y="749.3792394061153" width="6826.088193195874" textLength="6826.088193195874" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" >Domain Statement:</text><text xml:space="preserve" x="0" y="2890.4627805664445" width="2038.3099956785538" textLength="2038.3099956785538" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" >From:</text><text xml:space="preserve" x="0" y="3961.004551146609" width="54602.71462158078" textLength="54602.71462158078" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" font-weight="bold">We are interested in supporting couples to recognise and interpret each other&#39;s emotional states during everyday interactions, so they can adjust </text><text xml:space="preserve" x="0" y="5031.546321726774" width="38183.833160847884" textLength="38183.833160847884" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" font-weight="bold">how they approach one another and reduce the misinterpretation that commonly leads to arguments.</text><text xml:space="preserve" x="0" y="7172.629862887104" width="10904.208570014831" textLength="10904.208570014831" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" >From interviews, we found out:</text><text xml:space="preserve" x="0" y="8243.171633467267" width="54704.62975382336" textLength="54704.62975382336" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" >People can often recognise that something has changed, but they may not know what it means. They then need to check, adjust their response, and decide </text><text xml:space="preserve" x="0" y="9313.713404047432" width="15493.400909715769" textLength="15493.400909715769" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" >whether it is the right time to communicate.</text><text xml:space="preserve" x="0" y="11454.796945207761" width="2891.1031192719915" textLength="2891.1031192719915" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" >Revised:</text><rect transform="translate(0, 11775.959476381811)" width="55232.19370540739" height="1070.5417705801647" fill="#ffdc4a" ></rect><text xml:space="preserve" x="0" y="12525.338715787926" width="55232.19370540739" textLength="55232.19370540739" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" font-weight="bold">We are interested in supporting couples to recognise and clarify changes in each other&#39;s emotional states during everyday interactions, so they can </text><rect transform="translate(0, 12846.501246961976)" width="39498.241883422415" height="1070.5417705801647" fill="#ffdc4a" ></rect><text xml:space="preserve" x="0" y="13595.88048636809" width="39498.241883422415" textLength="39498.241883422415" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.3792394061153" 
+				fill="#282828" direction="ltr" font-weight="bold">adjust how and when they approach one another and reduce misinterpretations that may lead to conflict.</text></g></g></g><g data-widget-id="3458764682876898350"><g width="60px" height="20px"  transform="translate(3476.98, 45869.06) scale(53.50000000000001) rotate(0, 30, 10)"><svg
+	width="60"
+	height="20"
+	shape-border-width="shape-background"
+	style="width:60px; height: 20px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="288797404084">
+		<rect
+			x="0"
+			y="0"
+			width="60"
+			height="20"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="60"
+			height="20"
+			rx="0"
+			ry="0"
+			clip-path="url(#288797404084)"
+		></rect>
+	</g>
+</svg>
+</g><g width="3210.0000000000005px" height="1070.0000000000002px"  transform="translate(3476.98, 45869.06) rotate(0, 1605.0000000000002, 535.0000000000001)"><g transform="translate(0, 0)"><text xml:space="preserve" x="0" y="749.0000000000001" width="3155.5334472656255" textLength="3155.5334472656255" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.0000000000001" 
+				fill="#282828" direction="ltr" font-weight="bold">Findings</text></g></g></g><g data-widget-id="3458764682876898450"><g width="63px" height="20px"  transform="translate(3316.48, 57991.91) scale(53.50000000000001) rotate(0, 31.5, 10)"><svg
+	width="63"
+	height="20"
+	shape-border-width="shape-background"
+	style="width:63px; height: 20px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="1149836926692">
+		<rect
+			x="0"
+			y="0"
+			width="63"
+			height="20"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="63"
+			height="20"
+			rx="0"
+			ry="0"
+			clip-path="url(#1149836926692)"
+		></rect>
+	</g>
+</svg>
+</g><g width="3370.5000000000005px" height="1070.0000000000002px"  transform="translate(3316.48, 57991.91) rotate(0, 1685.2500000000002, 535.0000000000001)"><g transform="translate(0, 0)"><text xml:space="preserve" x="0" y="749.0000000000001" width="3312.0741729736333" textLength="3312.0741729736333" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.0000000000001" 
+				fill="#282828" direction="ltr" font-weight="bold">Evidence</text></g></g></g><g data-widget-id="3458764682876898752"><g width="58px" height="20px"  transform="translate(3583.98, 71098.92) scale(53.50000000000001) rotate(0, 29, 10)"><svg
+	width="58"
+	height="20"
+	shape-border-width="shape-background"
+	style="width:58px; height: 20px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="1340722913261">
+		<rect
+			x="0"
+			y="0"
+			width="58"
+			height="20"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="58"
+			height="20"
+			rx="0"
+			ry="0"
+			clip-path="url(#1340722913261)"
+		></rect>
+	</g>
+</svg>
+</g><g width="3103.0000000000005px" height="1070.0000000000002px"  transform="translate(3583.98, 71098.92) rotate(0, 1551.5000000000002, 535.0000000000001)"><g transform="translate(0, 0)"><text xml:space="preserve" x="0" y="749.0000000000001" width="3039.439361572266" textLength="3039.439361572266" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.0000000000001" 
+				fill="#282828" direction="ltr" font-weight="bold">Insights</text></g></g></g><g data-widget-id="3458764682877102041"><g width="88px" height="40px"  transform="translate(1978.98, 83740.3) scale(53.50000000000001) rotate(0, 44, 20)"><svg
+	width="88"
+	height="40"
+	shape-border-width="shape-background"
+	style="width:88px; height: 40px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="338984728835">
+		<rect
+			x="0"
+			y="0"
+			width="88"
+			height="40"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="88"
+			height="40"
+			rx="0"
+			ry="0"
+			clip-path="url(#338984728835)"
+		></rect>
+	</g>
+</svg>
+</g><g width="4708.000000000001px" height="2140.0000000000005px"  transform="translate(1978.98, 83740.3) rotate(0, 2354.0000000000005, 1070.0000000000002)"><g transform="translate(0, 0)"><text xml:space="preserve" x="2152.414978027344" y="749.0000000000001" width="2750.324989318848" textLength="2750.324989318848" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.0000000000001" 
+				fill="#282828" direction="ltr" font-weight="bold">Design </text><text xml:space="preserve" x="50.721977233886726" y="1819.0000000000005" width="4657.278022766114" textLength="4657.278022766114" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.0000000000001" 
+				fill="#282828" direction="ltr" font-weight="bold">Implications</text></g></g></g><g data-widget-id="3458764682877102520"><use xlink:href="#StickerType1R" transform="translate(9152.94, 94727.38) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#ffd2f2"/><g width="350px" height="228px"  transform="translate(8953.98, 94608) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="63" width="297.4798889160156" textLength="297.4798889160156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="40" 
+				fill="#1a1a1a" direction="ltr" >Mood-​changing</text><text xml:space="preserve" x="0" y="118" width="253.2799072265625" textLength="253.2799072265625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="40" 
+				fill="#1a1a1a" direction="ltr" >keychain face</text></g></g></g><g data-widget-id="3458764682877102521"><g width="0px" height="4682.68px"  transform="translate(15917.51, 89925.32) scale(1) rotate(0, 0, 2341.34)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 4634.388830966127" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.679740057036)  rotate(90) "  /> </g></g><g data-widget-id="3458764682877260477"><use xlink:href="#StickerType2R" transform="translate(25347.27, 94727.7) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#ffd2f2"/><g width="350px" height="228px"  transform="translate(25148.31, 94608.32) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="62" width="297.23388671875" textLength="297.23388671875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="42" 
+				fill="#1a1a1a" direction="ltr" >Optional mood</text><text xml:space="preserve" x="0" y="120" width="262.91990661621094" textLength="262.91990661621094" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="42" 
+				fill="#1a1a1a" direction="ltr" >note / reason</text></g></g></g><g data-widget-id="3458764682877260489"><g width="0px" height="4683px"  transform="translate(32111.84, 89925.32) scale(1) rotate(0, 0, 2341.5)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 4634.709090909077" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.999999999985)  rotate(90) "  /> </g></g><g data-widget-id="3458764682877260624"><use xlink:href="#StickerType1R" transform="translate(41541.33, 94727.38) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#ffd2f2"/><g width="350px" height="228px"  transform="translate(41342.37, 94608) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="25" width="239.44781494140625" textLength="239.44781494140625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >the partner can send a </text><text xml:space="preserve" x="0" y="55" width="288.4418029785156" textLength="288.4418029785156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >lightweight prompt such as </text><text xml:space="preserve" x="0" y="85" width="292.92974853515625" textLength="292.92974853515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >“Want to talk?”, “Need some </text><text xml:space="preserve" x="0" y="115" width="250.18380737304688" textLength="250.18380737304688" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >space?”, or “Want me to </text><text xml:space="preserve" x="0" y="145" width="154.48387145996094" textLength="154.48387145996094" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >check in later?”</text></g></g></g><g data-widget-id="3458764682877260625"><g width="0px" height="4682.68px"  transform="translate(48305.9, 89925.32) scale(1) rotate(0, 0, 2341.34)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 4634.388830966127" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.679740057036)  rotate(90) "  /> </g></g><g data-widget-id="3458764682877260641"><use xlink:href="#StickerType1R" transform="translate(57735.39, 94727.38) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#ffd2f2"/><g width="350px" height="228px"  transform="translate(57536.43, 94608) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="25" width="262.61383056640625" textLength="262.61383056640625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >suggest simple response </text><text xml:space="preserve" x="0" y="55" width="298.2978057861328" textLength="298.2978057861328" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >options such as “Give space,”</text><text xml:space="preserve" x="0" y="85" width="252.27377319335938" textLength="252.27377319335938" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >“Check in gently,” or “Be </text><text xml:space="preserve" x="0" y="115" width="283.13978576660156" textLength="283.13978576660156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >available,” rather than only </text><text xml:space="preserve" x="0" y="145" width="219.2958526611328" textLength="219.2958526611328" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="22" 
+				fill="#1a1a1a" direction="ltr" >showing the emotion</text></g></g></g><g data-widget-id="3458764682877260642"><g width="0px" height="4682.68px"  transform="translate(64499.96, 89925.32) scale(1) rotate(0, 0, 2341.34)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 4634.388830966127" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.679740057036)  rotate(90) "  /> </g></g><g data-widget-id="3458764682877260680"><use xlink:href="#StickerType1R" transform="translate(73929.45, 94727.38) scale(39.7915995096626) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#ffd2f2"/><g width="350px" height="228px"  transform="translate(73730.49, 94608) scale(39.7915995096626) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0" y="47.5" width="286.80384826660156" textLength="286.80384826660156" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="28" 
+				fill="#1a1a1a" direction="ltr" >simple status such as </text><text xml:space="preserve" x="0" y="86.5" width="274.0078430175781" textLength="274.0078430175781" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="28" 
+				fill="#1a1a1a" direction="ltr" >“Ready to talk,” “Talk </text><text xml:space="preserve" x="0" y="125.5" width="297.07981872558594" textLength="297.07981872558594" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="28" 
+				fill="#1a1a1a" direction="ltr" >later,” or “Need space.”</text></g></g></g><g data-widget-id="3458764682877260682"><g width="0px" height="4682.68px"  transform="translate(80694.02, 89925.32) scale(1) rotate(0, 0, 2341.34)"><path stroke-linecap="butt" 
+			stroke="#1a1a1a" stroke-width="16" fill="transparent"
+			d="M 0 0 L 0 4634.388830966127" /> <use xlink:href="#LineHeadArrow16" fill="#1a1a1a"
+			 transform="translate(0, 4682.679740057036)  rotate(90) "  /> </g></g><g data-widget-id="3458764682877394633"><g width="88px" height="20px"  transform="translate(1978.98, 98074.24) scale(53.50000000000001) rotate(0, 44, 10)"><svg
+	width="88"
+	height="20"
+	shape-border-width="shape-background"
+	style="width:88px; height: 20px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="1442851125493">
+		<rect
+			x="0"
+			y="0"
+			width="88"
+			height="20"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="88"
+			height="20"
+			rx="0"
+			ry="0"
+			clip-path="url(#1442851125493)"
+		></rect>
+	</g>
+</svg>
+</g><g width="4708.000000000001px" height="1070.0000000000002px"  transform="translate(1978.98, 98074.24) rotate(0, 2354.0000000000005, 535.0000000000001)"><g transform="translate(0, 0)"><text xml:space="preserve" x="1167.4805984497073" y="749.0000000000001" width="3540.5194015502934" textLength="3540.5194015502934" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="749.0000000000001" 
+				fill="#282828" direction="ltr" font-weight="bold">Ideations</text></g></g></g></svg>
