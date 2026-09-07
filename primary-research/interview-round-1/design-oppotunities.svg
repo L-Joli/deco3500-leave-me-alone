@@ -1,0 +1,162 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="3536.99px" height="1856.52px"
+		style="transform-origin: 0px 0px 0px;" version="1.1"
+		xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style xmlns="http://www.w3.org/2000/svg" type="text/css"><![CDATA[
+		* {
+			text-rendering: geometricprecision !important;
+		}
+		]]><![CDATA[@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/800985e1502d12bf.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/d8a7ca42a20caea5.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/3cc74c1d3919bd5c.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/f0481285dc248cf0.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/2f5e8dcf6e47bf00.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/0e625f45b71a26f1.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/645c27eb7d93eca8.woff2") format('woff2');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Hebrew Regular'), local('Noto Sans Hebrew-Regular'), url("https://mirostatic.com/app/static/7ebe1dcf0343326c.woff2") format('woff2'), url("https://mirostatic.com/app/static/6c11f037d6968262.woff") format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Hebrew Bold'), local('Noto Sans Hebrew-Bold'), url("https://mirostatic.com/app/static/d2883e2f177d0dad.woff2") format('woff2'), url("https://mirostatic.com/app/static/8546991909eadbc9.woff") format('woff');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url("https://mirostatic.com/app/static/a73798e3d459e1bc.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Noto Sans Italic'), local('NotoSans-Italic'), url("https://mirostatic.com/app/static/a8edd710f88715d4.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'), url("https://mirostatic.com/app/static/006d7e33e60b9e12.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Noto Sans Medium Italic'), local('NotoSans-MediumItalic'), url("https://mirostatic.com/app/static/31387059566a3171.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Noto Sans SemiBold'), local('NotoSans-SemiBold'), url("https://mirostatic.com/app/static/526dd53b40975c37.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Noto Sans SemiBold Italic'), local('NotoSans-SemiBoldItalic'), url("https://mirostatic.com/app/static/e73d4fdd87d7e319.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url("https://mirostatic.com/app/static/9f11d6779c14d2bc.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Noto Sans Bold Italic'), local('NotoSans-BoldItalic'), url("https://mirostatic.com/app/static/888e13e017cedc15.woff2") format('woff2');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Japanese Regular'), local('Noto Sans Japanese-Regular'), url("https://mirostatic.com/app/static/9320b3c07ab79383.woff2") format('woff2'), url("https://mirostatic.com/app/static/a43be2cbcfc0b250.woff") format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Japanese Bold'), local('Noto Sans Japanese-Bold'), url("https://mirostatic.com/app/static/7ab032c73212439f.woff2") format('woff2'), url("https://mirostatic.com/app/static/29f177f4466bd7a1.woff") format('woff');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url("https://mirostatic.com/app/static/7a5b625774730d22.woff2") format('woff2'), url("https://mirostatic.com/app/static/2d84dc606f1fb88e.woff") format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url("https://mirostatic.com/app/static/fa5a3d9073cdd58f.woff2") format('woff2'), url("https://mirostatic.com/app/static/7ded243557c83342.woff") format('woff');
+}
+]]></style></defs><rect id="svg-board-background-color" width="100%" height="100%" fill="#f2f2f2"></rect><g data-widget-id="3458764681570801135"><image href="data:image/svg+xml;utf8,%3Csvg%0A%09width%3D%2211317.370032923342%22%0A%09height%3D%2213876.369499040724%22%0A%09shape-border-width%3D%22shape-background%22%0A%09style%3D%22width%3A11317.370032923342px%3B%20height%3A%2013876.369499040724px%3B%22%0A%09class%3D%22shape-background%22%0A%09preserveAspectRatio%3D%22none%22%0A%09version%3D%221.1%22%0A%09xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%3E%0A%09%3CclipPath%20id%3D%22271381607367%22%3E%0A%09%09%3Crect%0A%09%09%09x%3D%220%22%0A%09%09%09y%3D%220%22%0A%09%09%09width%3D%2211317.370032923342%22%0A%09%09%09height%3D%2213876.369499040724%22%0A%09%09%09rx%3D%220%22%0A%09%09%09ry%3D%220%22%0A%09%09%3E%3C%2Frect%3E%0A%09%3C%2FclipPath%3E%0A%09%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%220%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%09%09%3Crect%0A%09%09%09class%3D%22shape-element%20shape-element-rect%22%0A%09%09%09stroke%3D%22%23000000%22%0A%09%09%09stroke-width%3D%220%22%0A%09%09%09stroke-dasharray%3D%22%22%0A%09%09%09stroke-opacity%3D%22%22%0A%09%09%09fill%3D%22%23ffffff%22%0A%09%09%09fill-opacity%3D%22%22%0A%09%09%09x%3D%220%22%0A%09%09%09y%3D%220%22%0A%09%09%09width%3D%2211317.370032923342%22%0A%09%09%09height%3D%2213876.369499040724%22%0A%09%09%09rx%3D%220%22%0A%09%09%09ry%3D%220%22%0A%09%09%09clip-path%3D%22url(%23271381607367)%22%0A%09%09%3E%3C%2Frect%3E%0A%09%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A" width="11317.37px" height="13876.37px" data-frame="true" preserveAspectRatio="none" data-frame-id="3458764681570801135" transform="translate(-6790.05, -11749.09) scale(1) rotate(0, 5658.685, 6938.185)" /></g><g data-widget-id="3458764681487402141"><g width="958px" height="424.29px"  transform="translate(94.86, 249.11) scale(3.5036732427636292) rotate(0, 479, 212.145)"><g ></g><g ><line x1="0" y1="0" x2="958" y2="0" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="0" x2="0" y2="424.28571428571433" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="70.71428571428572" x2="958" y2="70.71428571428572" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="141.42857142857144" x2="958" y2="141.42857142857144" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="212.14285714285717" x2="958" y2="212.14285714285717" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="282.8571428571429" x2="958" y2="282.8571428571429" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="353.5714285714286" x2="958" y2="353.5714285714286" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="424.28571428571433" x2="958" y2="424.28571428571433" stroke="#a9a9a9" stroke-width="1" /><line x1="352" y1="0" x2="352" y2="424.28571428571433" stroke="#a9a9a9" stroke-width="1" /><line x1="606" y1="0" x2="606" y2="424.28571428571433" stroke="#a9a9a9" stroke-width="1" /><line x1="958" y1="0" x2="958" y2="424.28571428571433" stroke="#a9a9a9" stroke-width="1" /></g><g ><text dy="20" y="-42" style='font: 20px "Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR; fill: #cccccc;' lengthAdjust="spacingAndGlyphs">Top 5 selected design opportunities &amp; relevance to revised problem statement</text></g></g></g><g data-widget-id="3458764681487402143"><g width="352px" height="36px"  transform="translate(94.86, 249.11) scale(3.5036732427636292) rotate(0, 176, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="134.818359375" textLength="134.818359375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Design opportunity</text></g></g></g><g data-widget-id="3458764681487402144"><g width="254px" height="56px"  transform="translate(1328.15, 249.11) scale(3.5036732427636292) rotate(0, 127, 28)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="183.025390625" textLength="183.025390625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Relevance to the problem </text><text xml:space="preserve" x="0" y="34" width="73.1376953125" textLength="73.1376953125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">statement</text></g></g></g><g data-widget-id="3458764681487402145"><g width="352px" height="36px"  transform="translate(2218.09, 249.11) scale(3.5036732427636292) rotate(0, 176, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="123.880859375" textLength="123.880859375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" font-weight="bold">Recommendation</text></g></g></g><g data-widget-id="3458764681487402146"><g width="352px" height="56px"  transform="translate(94.86, 496.87) scale(3.5036732427636292) rotate(0, 176, 28)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="291.087890625" textLength="291.087890625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Helping people notice recurring relationship </text><text xml:space="preserve" x="0" y="34" width="55.0908203125" textLength="55.0908203125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >patterns</text></g></g></g><g data-widget-id="3458764681487402147"><g width="254px" height="36px"  transform="translate(1328.15, 496.87) scale(3.5036732427636292) rotate(0, 127, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="60.990234375" textLength="60.990234375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Very high</text></g></g></g><g data-widget-id="3458764681487402149"><g width="352px" height="36px"  transform="translate(2218.09, 496.87) scale(3.5036732427636292) rotate(0, 176, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="86.2490234375" textLength="86.2490234375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Core concept</text></g></g></g><g data-widget-id="3458764681487402150"><g width="352px" height="36px"  transform="translate(94.86, 744.63) scale(3.5036732427636292) rotate(0, 176, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="328.4462890625" textLength="328.4462890625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Providing neutral support without involving others</text></g></g></g><g data-widget-id="3458764681487402151"><g width="254px" height="36px"  transform="translate(1328.15, 744.63) scale(3.5036732427636292) rotate(0, 127, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="60.990234375" textLength="60.990234375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Very high</text></g></g></g><g data-widget-id="3458764681487402152"><g width="352px" height="36px"  transform="translate(2218.09, 744.63) scale(3.5036732427636292) rotate(0, 176, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="86.2490234375" textLength="86.2490234375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Core concept</text></g></g></g><g data-widget-id="3458764681487402153"><g width="352px" height="36px"  transform="translate(94.86, 992.39) scale(3.5036732427636292) rotate(0, 176, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="276.74609375" textLength="276.74609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Helping people express boundaries clearly</text></g></g></g><g data-widget-id="3458764681487402154"><g width="254px" height="36px"  transform="translate(1328.15, 992.39) scale(3.5036732427636292) rotate(0, 127, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="30.1328125" textLength="30.1328125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >High</text></g></g></g><g data-widget-id="3458764681487402155"><g width="352px" height="36px"  transform="translate(2218.09, 992.39) scale(3.5036732427636292) rotate(0, 176, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="230.6787109375" textLength="230.6787109375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >A possible next step after reflection</text></g></g></g><g data-widget-id="3458764681487402156"><g width="352px" height="36px"  transform="translate(94.86, 1240.15) scale(3.5036732427636292) rotate(0, 176, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="286.466796875" textLength="286.466796875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Helping people find a better moment to talk</text></g></g></g><g data-widget-id="3458764681487402157"><g width="254px" height="36px"  transform="translate(1328.15, 1240.15) scale(3.5036732427636292) rotate(0, 127, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="63.8271484375" textLength="63.8271484375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Moderate</text></g></g></g><g data-widget-id="3458764681487402158"><g width="352px" height="36px"  transform="translate(2218.09, 1240.15) scale(3.5036732427636292) rotate(0, 176, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="267.7978515625" textLength="267.7978515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >A potential extension of the core concept</text></g></g></g><g data-widget-id="3458764681487402159"><g width="352px" height="56px"  transform="translate(94.86, 1487.91) scale(3.5036732427636292) rotate(0, 176, 28)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="322.724609375" textLength="322.724609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Helping partners understand each other through </text><text xml:space="preserve" x="0" y="34" width="61.9677734375" textLength="61.9677734375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >scenarios</text></g></g></g><g data-widget-id="3458764681487402160"><g width="254px" height="36px"  transform="translate(1328.15, 1487.91) scale(3.5036732427636292) rotate(0, 127, 18)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="26.6123046875" textLength="26.6123046875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >Low</text></g></g></g><g data-widget-id="3458764681487402161"><g width="352px" height="56px"  transform="translate(2218.09, 1487.91) scale(3.5036732427636292) rotate(0, 176, 28)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="14" width="322.9501953125" textLength="322.9501953125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >May move beyond the focus on private reflection </text><text xml:space="preserve" x="0" y="34" width="148.7158203125" textLength="148.7158203125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="14" 
+				fill="#1a1a1a" direction="ltr" >before communication</text></g></g></g></svg>
