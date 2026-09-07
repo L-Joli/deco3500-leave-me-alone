@@ -1,0 +1,291 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="9137.04px" height="11918.48px"
+		style="transform-origin: 0px 0px 0px;" version="1.1"
+		xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style xmlns="http://www.w3.org/2000/svg" type="text/css"><![CDATA[
+		* {
+			text-rendering: geometricprecision !important;
+		}
+		]]><![CDATA[@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/800985e1502d12bf.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/d8a7ca42a20caea5.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/3cc74c1d3919bd5c.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/f0481285dc248cf0.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/2f5e8dcf6e47bf00.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/0e625f45b71a26f1.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("https://mirostatic.com/app/static/645c27eb7d93eca8.woff2") format('woff2');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Hebrew Regular'), local('Noto Sans Hebrew-Regular'), url("https://mirostatic.com/app/static/7ebe1dcf0343326c.woff2") format('woff2'), url("https://mirostatic.com/app/static/6c11f037d6968262.woff") format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans Hebrew';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Hebrew Bold'), local('Noto Sans Hebrew-Bold'), url("https://mirostatic.com/app/static/d2883e2f177d0dad.woff2") format('woff2'), url("https://mirostatic.com/app/static/8546991909eadbc9.woff") format('woff');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url("https://mirostatic.com/app/static/a73798e3d459e1bc.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Noto Sans Italic'), local('NotoSans-Italic'), url("https://mirostatic.com/app/static/a8edd710f88715d4.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'), url("https://mirostatic.com/app/static/006d7e33e60b9e12.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Noto Sans Medium Italic'), local('NotoSans-MediumItalic'), url("https://mirostatic.com/app/static/31387059566a3171.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Noto Sans SemiBold'), local('NotoSans-SemiBold'), url("https://mirostatic.com/app/static/526dd53b40975c37.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Noto Sans SemiBold Italic'), local('NotoSans-SemiBoldItalic'), url("https://mirostatic.com/app/static/e73d4fdd87d7e319.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'), url("https://mirostatic.com/app/static/9f11d6779c14d2bc.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Noto Sans Bold Italic'), local('NotoSans-BoldItalic'), url("https://mirostatic.com/app/static/888e13e017cedc15.woff2") format('woff2');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Japanese Regular'), local('Noto Sans Japanese-Regular'), url("https://mirostatic.com/app/static/9320b3c07ab79383.woff2") format('woff2'), url("https://mirostatic.com/app/static/a43be2cbcfc0b250.woff") format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Japanese Bold'), local('Noto Sans Japanese-Bold'), url("https://mirostatic.com/app/static/7ab032c73212439f.woff2") format('woff2'), url("https://mirostatic.com/app/static/29f177f4466bd7a1.woff") format('woff');
+}
+]]><![CDATA[@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url("https://mirostatic.com/app/static/7a5b625774730d22.woff2") format('woff2'), url("https://mirostatic.com/app/static/2d84dc606f1fb88e.woff") format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url("https://mirostatic.com/app/static/fa5a3d9073cdd58f.woff2") format('woff2'), url("https://mirostatic.com/app/static/7ded243557c83342.woff") format('woff');
+}
+]]></style><filter x="-50%" y="-50%" width="200%" height="200%" id="StickerShadowFilter">
+				<feOffset result="offOut" in="SourceGraphic" dx="1" dy="3" />
+      			<feGaussianBlur result="blurOut" in="offOut" stdDeviation="3" />
+			</filter><path id="StickerType2RPath" d="M.008.995C.003.445.44 0 1.008.003l688.984 1.994c.557.002 1.01.446 1.013 1.01l1.99 389.987c.003.556-.435 1.006-1.002 1.006H4.007c-.556 0-1.01-.445-1.015-.995L.008.995z"/><g id="StickerType2R" fill-rule="evenodd">
+					<path d="M.008.995C.003.445.44 0 1.008.003l688.984 1.994c.557.002 1.01.446 1.013 1.01l1.99 389.987c.003.556-.435 1.006-1.002 1.006H4.007c-.556 0-1.01-.445-1.015-.995L.008.995z" fill-opacity=".12" fill="#000" filter="url(#StickerShadowFilter)" transform="translate(1, 3)" />
+					<g><use fill="inherit" xlink:href="#StickerType2RPath"/></g>
+				</g></defs><rect id="svg-board-background-color" width="100%" height="100%" fill="#f2f2f2"></rect><g data-widget-id="3458764682209749088"><image href="data:image/svg+xml;utf8,%3Csvg%0A%09width%3D%2218965.902562197174%22%0A%09height%3D%2213876.369499040722%22%0A%09shape-border-width%3D%22shape-background%22%0A%09style%3D%22width%3A18965.902562197174px%3B%20height%3A%2013876.369499040722px%3B%22%0A%09class%3D%22shape-background%22%0A%09preserveAspectRatio%3D%22none%22%0A%09version%3D%221.1%22%0A%09xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%0A%3E%0A%09%3CclipPath%20id%3D%22505873976490%22%3E%0A%09%09%3Crect%0A%09%09%09x%3D%220%22%0A%09%09%09y%3D%220%22%0A%09%09%09width%3D%2218965.902562197174%22%0A%09%09%09height%3D%2213876.369499040722%22%0A%09%09%09rx%3D%220%22%0A%09%09%09ry%3D%220%22%0A%09%09%3E%3C%2Frect%3E%0A%09%3C%2FclipPath%3E%0A%09%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%220%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%09%09%3Crect%0A%09%09%09class%3D%22shape-element%20shape-element-rect%22%0A%09%09%09stroke%3D%22%23000000%22%0A%09%09%09stroke-width%3D%220%22%0A%09%09%09stroke-dasharray%3D%22%22%0A%09%09%09stroke-opacity%3D%22%22%0A%09%09%09fill%3D%22%23ffffff%22%0A%09%09%09fill-opacity%3D%22%22%0A%09%09%09x%3D%220%22%0A%09%09%09y%3D%220%22%0A%09%09%09width%3D%2218965.902562197174%22%0A%09%09%09height%3D%2213876.369499040722%22%0A%09%09%09rx%3D%220%22%0A%09%09%09ry%3D%220%22%0A%09%09%09clip-path%3D%22url(%23505873976490)%22%0A%09%09%3E%3C%2Frect%3E%0A%09%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A" width="18965.9px" height="13876.37px" data-frame="true" preserveAspectRatio="none" data-frame-id="3458764682209749088" transform="translate(-443.96, -658.1) scale(1) rotate(0, 9482.95, 6938.185)" /></g><g data-widget-id="3458764682209667744"><g width="160px" height="20px"  transform="translate(485.37, 297.2) scale(10.285714285714286) rotate(0, 80, 10)"><svg
+	width="160"
+	height="20"
+	shape-border-width="shape-background"
+	style="width:160px; height: 20px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="1413762792212">
+		<rect
+			x="0"
+			y="0"
+			width="160"
+			height="20"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="160"
+			height="20"
+			rx="0"
+			ry="0"
+			clip-path="url(#1413762792212)"
+		></rect>
+	</g>
+</svg>
+</g><g width="1645.7142857142858px" height="205.71428571428572px"  transform="translate(485.37, 297.2) rotate(0, 822.8571428571429, 102.85714285714286)"><g transform="translate(0, 0)"><text xml:space="preserve" x="0" y="144" width="1634.8306012834823" textLength="1634.8306012834823" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="144" 
+				fill="#1a1a1a" direction="ltr" >Insights from interviews</text></g></g></g><g data-widget-id="3458764682209878961"><use xlink:href="#StickerType2R" transform="translate(446.12, 633.44) scale(12.143911719854758) rotate(0, 175, 114) scale(0.5, 0.5)" fill="#81e7de"/><g width="350px" height="228px"  transform="translate(385.4, 597.01) scale(12.143911719854758) rotate(0, 175, 114)"><g transform="translate(24, 22)"><text xml:space="preserve" x="0.267578125" y="30.5" width="301.46484375" textLength="301.46484375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >Across all six participants, emotional states influenced</text><text xml:space="preserve" x="13.4892578125" y="47.5" width="278.138671875" textLength="278.138671875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >how relationship concerns were experienced and </text><text xml:space="preserve" x="2.259765625" y="64.5" width="300.59765625" textLength="300.59765625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >handled. Participants described feelings such as hurt, </text><text xml:space="preserve" x="4.9580078125" y="81.5" width="295.201171875" textLength="295.201171875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >discomfort, sadness, anger, stress and feeling upset, </text><text xml:space="preserve" x="41.1748046875" y="98.5" width="222.767578125" textLength="222.767578125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >and several adjusted when or how they </text><text xml:space="preserve" x="18.21484375" y="115.5" width="268.6875" textLength="268.6875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >communicated depending on their own or their </text><text xml:space="preserve" x="79.1552734375" y="132.5" width="143.689453125" textLength="143.689453125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="12" 
+				fill="#1a1a1a" direction="ltr" >partner’s emotional state.</text></g></g></g><g data-widget-id="3458764682209879675"><g width="1574.09px" height="636px"  transform="translate(443.71, 3365.82) scale(5.1136688336706095) rotate(0, 787.045, 318)"><g ></g><g ><line x1="0" y1="0" x2="1574.0931599393089" y2="0" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="0" x2="0" y2="636" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="65" x2="1574.0931599393089" y2="65" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="326" x2="1574.0931599393089" y2="326" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="636" x2="1574.0931599393089" y2="636" stroke="#a9a9a9" stroke-width="1" /><line x1="524.6977199797697" y1="0" x2="524.6977199797697" y2="636" stroke="#a9a9a9" stroke-width="1" /><line x1="1049.3954399595393" y1="0" x2="1049.3954399595393" y2="636" stroke="#a9a9a9" stroke-width="1" /><line x1="1574.0931599393089" y1="0" x2="1574.0931599393089" y2="636" stroke="#a9a9a9" stroke-width="1" /></g><g ><text dy="20" y="-42" style='font: 20px "Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR; fill: #cccccc;' lengthAdjust="spacingAndGlyphs"></text></g></g></g><g data-widget-id="3458764682209879676"><g width="524px" height="49px"  transform="translate(443.7, 3365.82) scale(5.1136688336706095) rotate(0, 262, 24.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="24" width="77.26171875" textLength="77.26171875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >Theme</text></g></g></g><g data-widget-id="3458764682209879677"><g width="524px" height="49px"  transform="translate(3126.83, 3365.82) scale(5.1136688336706095) rotate(0, 262, 24.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="24" width="132.33984375" textLength="132.33984375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >Participants</text></g></g></g><g data-widget-id="3458764682209879678"><g width="524px" height="49px"  transform="translate(5809.96, 3365.82) scale(5.1136688336706095) rotate(0, 262, 24.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="24" width="90.3984375" textLength="90.3984375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >Analysis</text></g></g></g><g data-widget-id="3458764682209879679"><g width="524px" height="49px"  transform="translate(443.7, 3698.21) scale(5.1136688336706095) rotate(0, 262, 24.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="24" width="494.7890625" textLength="494.7890625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >Own emotional state affects communication</text></g></g></g><g data-widget-id="3458764682209879680"><g width="524px" height="49px"  transform="translate(3126.83, 3698.21) scale(5.1136688336706095) rotate(0, 262, 24.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="24" width="229.6171875" textLength="229.6171875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >P1, P2, P3, P4, P5, P6</text></g></g></g><g data-widget-id="3458764682209879681"><g width="524px" height="115px"  transform="translate(5809.96, 3698.21) scale(5.1136688336706095) rotate(0, 262, 57.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="24" width="503.98828125" textLength="503.98828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >Participants described calming down, feeling </text><text xml:space="preserve" x="0" y="57" width="483.59765625" textLength="483.59765625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >upset or hurt, avoiding conflict, or delaying </text><text xml:space="preserve" x="0" y="90" width="492.15234375" textLength="492.15234375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >conversations when emotions were intense.</text></g></g></g><g data-widget-id="3458764682209879682"><g width="524px" height="82px"  transform="translate(443.7, 5032.88) scale(5.1136688336706095) rotate(0, 262, 41)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="24" width="367.640625" textLength="367.640625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >Partner’s emotional state affects </text><text xml:space="preserve" x="0" y="57" width="174.64453125" textLength="174.64453125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >communication</text></g></g></g><g data-widget-id="3458764682209879683"><g width="524px" height="49px"  transform="translate(3126.83, 5032.88) scale(5.1136688336706095) rotate(0, 262, 24.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="24" width="149.0390625" textLength="149.0390625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >P1, P3, P4, P5</text></g></g></g><g data-widget-id="3458764682209879686"><g width="524px" height="148px"  transform="translate(5809.96, 5032.88) scale(5.1136688336706095) rotate(0, 262, 74)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="24" width="442.32421875" textLength="442.32421875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >Some participants explicitly considered </text><text xml:space="preserve" x="0" y="57" width="479.89453125" textLength="479.89453125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >whether their partner was upset, stressed, </text><text xml:space="preserve" x="0" y="90" width="423.140625" textLength="423.140625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >concerned, or in a good mood before </text><text xml:space="preserve" x="0" y="123" width="473.203125" textLength="473.203125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="24" 
+				fill="#1a1a1a" direction="ltr" >deciding how to respond or communicate.</text></g></g></g><g data-widget-id="3458764682210020081"><g width="5385.76px" height="2908px"  transform="translate(443.7, 6933.4) scale(1.560243191478697) rotate(0, 2692.88, 1454)"><g ></g><g ><line x1="0" y1="0" x2="5385.756553596262" y2="0" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="0" x2="0" y2="2908" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="196" x2="5385.756553596262" y2="196" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="757" x2="5385.756553596262" y2="757" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="1100" x2="5385.756553596262" y2="1100" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="1552" x2="5385.756553596262" y2="1552" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="2004" x2="5385.756553596262" y2="2004" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="2456" x2="5385.756553596262" y2="2456" stroke="#a9a9a9" stroke-width="1" /><line x1="0" y1="2908" x2="5385.756553596262" y2="2908" stroke="#a9a9a9" stroke-width="1" /><line x1="1795.2521845320875" y1="0" x2="1795.2521845320875" y2="2908" stroke="#a9a9a9" stroke-width="1" /><line x1="3590.504369064175" y1="0" x2="3590.504369064175" y2="2908" stroke="#a9a9a9" stroke-width="1" /><line x1="5385.756553596262" y1="0" x2="5385.756553596262" y2="2908" stroke="#a9a9a9" stroke-width="1" /></g><g ><text dy="20" y="-42" style='font: 20px "Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR; fill: #cccccc;' lengthAdjust="spacingAndGlyphs"></text></g></g></g><g data-widget-id="3458764682210020082"><g width="1795px" height="125px"  transform="translate(443.7, 6933.4) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="402.96875" textLength="402.96875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >Participant</text></g></g></g><g data-widget-id="3458764682210020083"><g width="1795px" height="125px"  transform="translate(3244.73, 6933.4) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="1009.4140625" textLength="1009.4140625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >Did they discuss emotions?</text></g></g></g><g data-widget-id="3458764682210020084"><g width="1795px" height="125px"  transform="translate(6045.76, 6933.4) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="330.78125" textLength="330.78125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >Evidence</text></g></g></g><g data-widget-id="3458764682210020085"><g width="1795px" height="125px"  transform="translate(443.7, 7239.2) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="93.90625" textLength="93.90625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >P1</text></g></g></g><g data-widget-id="3458764682210020086"><g width="1795px" height="125px"  transform="translate(3244.73, 7239.2) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="127.8515625" textLength="127.8515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >Yes</text></g></g></g><g data-widget-id="3458764682210020087"><g width="1795px" height="561px"  transform="translate(6045.76, 7239.2) scale(1.560243191478697) rotate(0, 897.5, 280.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="1388.4765625" textLength="1388.4765625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >“The way you said that made me feel </text><text xml:space="preserve" x="0" y="189" width="1743.7890625" textLength="1743.7890625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >uncomfortable. I actually feel quite hurt.” They </text><text xml:space="preserve" x="0" y="298" width="1774.296875" textLength="1774.296875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >also described using walking, exercise, or other </text><text xml:space="preserve" x="0" y="407" width="1637.578125" textLength="1637.578125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >activities to relieve anger or sadness before </text><text xml:space="preserve" x="0" y="516" width="873.046875" textLength="873.046875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >returning to a problem.</text></g></g></g><g data-widget-id="3458764682210020088"><g width="1795px" height="125px"  transform="translate(443.7, 8114.5) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="93.90625" textLength="93.90625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >P2</text></g></g></g><g data-widget-id="3458764682210020089"><g width="1795px" height="125px"  transform="translate(3244.73, 8114.5) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="127.8515625" textLength="127.8515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >Yes</text></g></g></g><g data-widget-id="3458764682210020090"><g width="1795px" height="343px"  transform="translate(6045.76, 8114.5) scale(1.560243191478697) rotate(0, 897.5, 171.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="1755.3125" textLength="1755.3125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >“If he chooses to go fishing, I’ll feel a bit upset.” </text><text xml:space="preserve" x="0" y="189" width="1655.078125" textLength="1655.078125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >They also said they would still communicate </text><text xml:space="preserve" x="0" y="298" width="1500.46875" textLength="1500.46875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >“regardless of how uncomfortable I am.”</text></g></g></g><g data-widget-id="3458764682210020091"><g width="1795px" height="125px"  transform="translate(443.7, 8649.66) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="93.90625" textLength="93.90625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >P3</text></g></g></g><g data-widget-id="3458764682210020092"><g width="1795px" height="125px"  transform="translate(3244.73, 8649.66) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="127.8515625" textLength="127.8515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >Yes</text></g></g></g><g data-widget-id="3458764682210020093"><g width="1795px" height="452px"  transform="translate(6045.76, 8649.66) scale(1.560243191478697) rotate(0, 897.5, 226)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="1654.8828125" textLength="1654.8828125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >“Depends on the partner’s emotion. If she is </text><text xml:space="preserve" x="0" y="189" width="1692.2265625" textLength="1692.2265625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >really upset for multiple times, then it should </text><text xml:space="preserve" x="0" y="298" width="1669.1796875" textLength="1669.1796875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >be the problem that we should adjust.” They </text><text xml:space="preserve" x="0" y="407" width="1635.15625" textLength="1635.15625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >also wanted personal space “to calm down.”</text></g></g></g><g data-widget-id="3458764682210020094"><g width="1795px" height="125px"  transform="translate(443.7, 9354.89) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="93.90625" textLength="93.90625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >P4</text></g></g></g><g data-widget-id="3458764682210020095"><g width="1795px" height="125px"  transform="translate(3244.73, 9354.89) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="127.8515625" textLength="127.8515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >Yes</text></g></g></g><g data-widget-id="3458764682210020096"><g width="1795px" height="452px"  transform="translate(6045.76, 9354.89) scale(1.560243191478697) rotate(0, 897.5, 226)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="1680.15625" textLength="1680.15625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >“I would be really sad and feel disrespected.” </text><text xml:space="preserve" x="0" y="189" width="1586.1328125" textLength="1586.1328125" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >They also said whether they raise an issue </text><text xml:space="preserve" x="0" y="298" width="1639.609375" textLength="1639.609375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >“depends on whether the partner’s mood is </text><text xml:space="preserve" x="0" y="407" width="486.9921875" textLength="486.9921875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >good or not.”</text></g></g></g><g data-widget-id="3458764682210020097"><g width="1795px" height="125px"  transform="translate(443.7, 10060.12) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="93.90625" textLength="93.90625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >P5</text></g></g></g><g data-widget-id="3458764682210020098"><g width="1795px" height="125px"  transform="translate(3244.73, 10060.12) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="127.8515625" textLength="127.8515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >Yes</text></g></g></g><g data-widget-id="3458764682210020099"><g width="1795px" height="452px"  transform="translate(6045.76, 10060.12) scale(1.560243191478697) rotate(0, 897.5, 226)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="1750.2734375" textLength="1750.2734375" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >“When she’s under a ton of stress, chances are </text><text xml:space="preserve" x="0" y="189" width="1740.1171875" textLength="1740.1171875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >she won’t act like herself.” They also described </text><text xml:space="preserve" x="0" y="298" width="1687.65625" textLength="1687.65625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >situations where both partners were “getting </text><text xml:space="preserve" x="0" y="407" width="1758.7890625" textLength="1758.7890625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >heated” and needed a break before continuing.</text></g></g></g><g data-widget-id="3458764682210020100"><g width="1795px" height="125px"  transform="translate(443.7, 10765.35) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="93.90625" textLength="93.90625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >P6</text></g></g></g><g data-widget-id="3458764682210020101"><g width="1795px" height="125px"  transform="translate(3244.73, 10765.35) scale(1.560243191478697) rotate(0, 897.5, 62.5)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="127.8515625" textLength="127.8515625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >Yes</text></g></g></g><g data-widget-id="3458764682210020102"><g width="1795px" height="452px"  transform="translate(6045.76, 10765.35) scale(1.560243191478697) rotate(0, 897.5, 226)"><g transform="translate(8, 8)"><text xml:space="preserve" x="0" y="80" width="1749.1015625" textLength="1749.1015625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >“I might not be in the best mood or I might say </text><text xml:space="preserve" x="0" y="189" width="1563.7890625" textLength="1563.7890625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >things out of a fit of rage.” They preferred </text><text xml:space="preserve" x="0" y="298" width="1563.7890625" textLength="1563.7890625" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >thinking and calming down before raising </text><text xml:space="preserve" x="0" y="407" width="542.3046875" textLength="542.3046875" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"OpenSans", Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="80" 
+				fill="#1a1a1a" direction="ltr" >serious issues.</text></g></g></g><g data-widget-id="3458764682278833619"><g width="294.15px" height="140px"  transform="translate(5827.46, 237.15) scale(10.285714285714286) rotate(0, 147.075, 70)"><svg
+	width="294.15"
+	height="140"
+	shape-border-width="shape-background"
+	style="width:294.15px; height: 140px;"
+	class="shape-background"
+	preserveAspectRatio="none"
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+>
+	<clipPath id="1471281955624">
+		<rect
+			x="0"
+			y="0"
+			width="294.15"
+			height="140"
+			rx="0"
+			ry="0"
+		></rect>
+	</clipPath>
+	<g id="Page-1" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd">
+		<rect
+			class="shape-element shape-element-rect"
+			stroke="transparent"
+			stroke-width="0"
+			stroke-dasharray=""
+			stroke-opacity="0"
+			fill="transparent"
+			fill-opacity="0"
+			x="0"
+			y="0"
+			width="294.15"
+			height="140"
+			rx="0"
+			ry="0"
+			clip-path="url(#1471281955624)"
+		></rect>
+	</g>
+</svg>
+</g><g width="3025.542857142857px" height="1440px"  transform="translate(5827.46, 237.15) rotate(0, 1512.7714285714285, 720)"><g transform="translate(0, 0)"><text xml:space="preserve" x="0" y="144" width="381.74351283482144" textLength="381.74351283482144" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="144" 
+				fill="#1a1a1a" direction="ltr" >Gaps:</text><text xml:space="preserve" x="308.57142816000004" y="349.7142857142857" width="2415.453787667411" textLength="2415.453787667411" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="144" 
+				fill="#1a1a1a" direction="ltr" >How one partner knows the other’s </text><text xml:space="preserve" x="308.57142816000004" y="555.4285714285714" width="1058.542759486607" textLength="1058.542759486607" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="144" 
+				fill="#1a1a1a" direction="ltr" >emotional state</text><text xml:space="preserve" x="308.57142816000004" y="761.1428571428572" width="2424.3819056919647" textLength="2424.3819056919647" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="144" 
+				fill="#1a1a1a" direction="ltr" >How people know they are ready to </text><text xml:space="preserve" x="308.57142816000004" y="966.8571428571429" width="490.7514299665179" textLength="490.7514299665179" lengthAdjust="spacingAndGlyphs" letter-spacing="0" font-family='"Noto Sans", Helvetica, OpenSans, Arial, sans-serif, Noto Sans Hebrew, Noto Sans, Noto Sans JP, Noto Sans KR' font-size="144" 
+				fill="#1a1a1a" direction="ltr" >discuss</text><circle r="14.4" transform="translate(178.97142816000004, 318.8571428571429)" fill="#1a1a1a">undefined.</circle><circle r="14.4" transform="translate(178.97142816000004, 730.2857142857143)" fill="#1a1a1a">undefined.</circle></g></g></g></svg>
