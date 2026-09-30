@@ -1,0 +1,137 @@
+.face-display {
+  width: 100%;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  padding: var(--safe-top) var(--safe-right) var(--safe-bottom) var(--safe-left);
+  background:
+    radial-gradient(circle at 50% 48%, rgba(255, 114, 85, 0.1), transparent 42%),
+    var(--color-face);
+  color: #fff9f2;
+}
+
+.face-display--preview {
+  min-height: 0;
+  height: 100%;
+  border-radius: var(--radius-lg);
+  padding: clamp(1rem, 4vw, 2rem);
+}
+
+.face-display__content {
+  min-width: 0;
+  display: grid;
+  place-items: center;
+  gap: clamp(0.5rem, 2vh, 1.25rem);
+}
+
+.emotion-face {
+  display: block;
+  overflow: visible;
+}
+
+.emotion-face--large {
+  width: min(62vw, 62vh, 31rem);
+}
+
+.emotion-face--medium {
+  width: min(36vw, 28vh, 15rem);
+}
+
+.emotion-face--small {
+  width: clamp(4.5rem, 18vw, 7rem);
+}
+
+.face-strokes {
+  fill: currentColor;
+  stroke: currentColor;
+  stroke-width: 4.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.face-strokes path,
+.face-strokes ellipse {
+  fill: none;
+}
+
+.face-strokes circle,
+.face-strokes rect {
+  stroke: none;
+}
+
+.emotion-face--dark {
+  color: #fff7ec;
+  filter: drop-shadow(0 0 1.6rem rgba(255, 214, 194, 0.14));
+}
+
+.emotion-face--light {
+  color: var(--color-ink);
+}
+
+.face-detail {
+  stroke-width: 3.25 !important;
+  opacity: 0.88;
+}
+
+.face-accent {
+  color: var(--color-accent);
+  fill: currentColor !important;
+  stroke: none !important;
+}
+
+.emotion-label {
+  min-height: 1.35em;
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-weight: 760;
+  letter-spacing: 0.01em;
+  animation: soft-in var(--duration-base) var(--ease-out);
+}
+
+.need-selector {
+  width: min(82vw, 42rem);
+  display: grid;
+  place-items: center;
+  gap: clamp(0.75rem, 3vh, 1.5rem);
+  text-align: center;
+}
+
+.face-kicker,
+.selection-hint {
+  color: rgba(255, 249, 242, 0.58);
+  font-size: clamp(0.72rem, 2vw, 0.95rem);
+  font-weight: 750;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.need-selector p {
+  margin: 0;
+  font-size: clamp(2rem, 8vw, 5rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+  animation: soft-in var(--duration-base) var(--ease-out);
+}
+
+@keyframes soft-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.35rem) scale(0.98);
+  }
+}
+
+@media (orientation: landscape) and (max-height: 520px) {
+  .emotion-face--large {
+    width: min(48vw, 64vh, 19rem);
+  }
+
+  .emotion-label {
+    font-size: clamp(1rem, 4vh, 1.4rem);
+  }
+
+  .need-selector p {
+    font-size: clamp(1.65rem, 9vh, 3rem);
+  }
+}

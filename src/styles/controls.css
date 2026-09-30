@@ -1,0 +1,132 @@
+.control--physical,
+.control--compact {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  color: var(--color-ink);
+  cursor: pointer;
+  touch-action: manipulation;
+  user-select: none;
+  transition:
+    transform var(--duration-fast) var(--ease-out),
+    filter var(--duration-fast) var(--ease-out),
+    background var(--duration-fast) var(--ease-out);
+}
+
+.control--physical {
+  width: 100%;
+  min-height: 100dvh;
+  gap: clamp(0.6rem, 2vh, 1.2rem);
+  padding: var(--safe-top) var(--safe-right) var(--safe-bottom) var(--safe-left);
+  background:
+    radial-gradient(circle at 50% 45%, #fff 0, transparent 45%),
+    var(--color-canvas);
+}
+
+.control--compact {
+  width: 100%;
+  min-height: 7.75rem;
+  gap: var(--space-1);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: 0 0.65rem 1.6rem rgba(64, 43, 35, 0.07);
+}
+
+.control--physical:active,
+.control--compact:active {
+  transform: scale(0.965);
+  filter: saturate(1.08);
+}
+
+.direction-button__arrow {
+  display: grid;
+  place-items: center;
+  width: min(56vw, 56vh, 22rem);
+  aspect-ratio: 1;
+  border: clamp(0.3rem, 1vw, 0.55rem) solid rgba(23, 35, 61, 0.08);
+  border-radius: 50%;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-button), var(--shadow-soft);
+  color: var(--color-accent-deep);
+  font-size: clamp(6rem, 26vw, 13rem);
+  font-weight: 500;
+  line-height: 1;
+}
+
+.control--compact .direction-button__arrow {
+  width: 3.5rem;
+  border-width: 0.18rem;
+  font-size: 2.3rem;
+  box-shadow: 0 0.35rem 0 rgba(127, 53, 37, 0.1);
+}
+
+.head-button__disc {
+  width: min(52vw, 52vh, 20rem);
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #ff8a70, var(--color-accent));
+  box-shadow:
+    0 1.1rem 0 #d95037,
+    0 2rem 3rem rgba(232, 86, 59, 0.24);
+  transition:
+    transform var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.head-button__disc span {
+  width: 24%;
+  aspect-ratio: 1;
+  border: 0.28rem solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+}
+
+.control--compact .head-button__disc {
+  width: 3.5rem;
+  box-shadow:
+    0 0.4rem 0 #d95037,
+    0 0.75rem 1.2rem rgba(232, 86, 59, 0.18);
+}
+
+.control--physical:active .head-button__disc,
+.control--compact:active .head-button__disc {
+  transform: translateY(0.35rem);
+  box-shadow:
+    0 0.5rem 0 #d95037,
+    0 1rem 1.8rem rgba(232, 86, 59, 0.2);
+}
+
+.control-label {
+  font-size: clamp(1rem, 3vw, 1.35rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.control--compact .control-label {
+  font-size: 0.72rem;
+}
+
+.control-feedback {
+  min-height: 1.35em;
+  color: var(--color-accent-deep);
+  font-size: clamp(0.82rem, 2vw, 1rem);
+  font-weight: 700;
+}
+
+@media (orientation: landscape) and (max-height: 520px) {
+  .direction-button__arrow,
+  .head-button__disc {
+    width: min(38vw, 56vh, 13rem);
+  }
+
+  .direction-button__arrow {
+    font-size: clamp(4rem, 24vh, 8rem);
+  }
+
+  .control--physical {
+    gap: 0.3rem;
+  }
+}
