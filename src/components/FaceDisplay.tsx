@@ -1,6 +1,6 @@
 import { EmotionFace } from "./EmotionFace";
 import { EMOTIONS, NEUTRAL_EMOTION } from "../config/emotions";
-import { NEEDS } from "../config/needs";
+import { getAvailableNeeds } from "../config/needs";
 import { useFeelio } from "../hooks/useFeelio";
 import type { EmotionId, PartnerId } from "../types/domain";
 
@@ -20,11 +20,14 @@ export function FaceDisplay({
   const isPreview = variant === "preview";
 
   if (partner.selectionMode === "need") {
-    const need = NEEDS[partner.draftNeedIndex];
+    if (!partner.confirmedEmotion) return null;
+    const need = getAvailableNeeds(partner.confirmedEmotion)[
+      partner.draftNeedIndex
+    ];
     return (
       <section className={`face-display face-display--${variant}`}>
         <div className="need-selector" aria-live="polite">
-          <span className="face-kicker">What do you need?</span>
+          <span className="face-kicker">What would you like right now?</span>
           <p>{need.label}</p>
           <span className="selection-hint">Use the hands to browse</span>
         </div>
