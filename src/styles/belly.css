@@ -262,6 +262,26 @@
   line-height: 1.4;
 }
 
+.response-summary {
+  place-items: stretch;
+  gap: var(--space-3);
+  padding: clamp(1rem, 3vw, 1.35rem);
+  border: 1px solid rgba(255, 114, 85, 0.2);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 248, 244, 0.92);
+  text-align: left;
+}
+
+.response-summary__item {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.response-summary__item + .response-summary__item {
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-line);
+}
+
 .reply-confirmation__actions {
   display: flex;
   flex-wrap: wrap;
@@ -276,7 +296,7 @@
   font-weight: 700;
 }
 
-.response-summary > span {
+.response-summary__item > span {
   color: var(--color-muted);
   font-size: 0.78rem;
   font-weight: 800;

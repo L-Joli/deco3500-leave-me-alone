@@ -199,15 +199,21 @@ export function BellyDisplay({
                 </div>
               ) : null}
 
-              {responseToOwnUpdate ? (
-                <div className="response-summary">
-                  <span>Partner’s reply</span>
-                  <p>“{getReply(responseToOwnUpdate.replyId).label}”</p>
-                </div>
-              ) : null}
-
               {state.matchingStatus ? (
                 <StatusCard status={state.matchingStatus} />
+              ) : null}
+
+              {responseToOwnUpdate && partner.latestSentUpdate ? (
+                <div className="response-summary">
+                  <div className="response-summary__item">
+                    <span>You shared</span>
+                    <p>“{getNeed(partner.latestSentUpdate.needId).label}”</p>
+                  </div>
+                  <div className="response-summary__item">
+                    <span>Partner’s reply</span>
+                    <p>“{getReply(responseToOwnUpdate.replyId).label}”</p>
+                  </div>
+                </div>
               ) : null}
             </>
           )}
