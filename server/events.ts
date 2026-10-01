@@ -7,8 +7,9 @@ import type {
   ServerToClientEvents,
 } from "../src/types/domain";
 import { EMOTION_BROWSE_TIMEOUT_MS } from "../src/config/emotions";
+import { STATUS_BROWSE_TIMEOUT_MS } from "../src/config/needs";
 import {
-  cancelEmotionBrowsing,
+  cancelSelectionBrowsing,
   confirmReply,
   confirmSelection,
   getState,
@@ -22,25 +23,49 @@ import {
 type FeelioServer = Server<ClientToServerEvents, ServerToClientEvents>;
 type FeelioSocket = Socket<ClientToServerEvents, ServerToClientEvents>;
 
-const emotionBrowseTimers = new Map<PartnerId, ReturnType<typeof setTimeout>>();
+const selectionBrowseTimers = new Map<
+  PartnerId,
+  ReturnType<typeof setTimeout>
+>();
 
-function clearEmotionBrowseTimer(partnerId: PartnerId): void {
-  const timer = emotionBrowseTimers.get(partnerId);
+function clearSelectionBrowseTimer(partnerId: PartnerId): void {
+  const timer = selectionBrowseTimers.get(partnerId);
   if (timer) clearTimeout(timer);
-  emotionBrowseTimers.delete(partnerId);
+  selectionBrowseTimers.delete(partnerId);
 }
 
-function scheduleEmotionBrowseTimeout(
+function scheduleSelectionBrowseTimeout(
   io: FeelioServer,
   partnerId: PartnerId,
+  timeoutMs: number,
 ): void {
-  clearEmotionBrowseTimer(partnerId);
+  clearSelectionBrowseTimer(partnerId);
   const timer = setTimeout(() => {
-    emotionBrowseTimers.delete(partnerId);
-    const nextState = cancelEmotionBrowsing(partnerId);
+    selectionBrowseTimers.delete(partnerId);
+    const nextState = cancelSelectionBrowsing(partnerId);
     if (nextState) io.emit("state:update", nextState);
-  }, EMOTION_BROWSE_TIMEOUT_MS);
-  emotionBrowseTimers.set(partnerId, timer);
+  }, timeoutMs);
+  selectionBrowseTimers.set(partnerId, timer);
+}
+
+function syncSelectionBrowseTimer(
+  io: FeelioServer,
+  partnerId: PartnerId,
+  result: ActionResult,
+): void {
+  if (!result.ok) {
+    clearSelectionBrowseTimer(partnerId);
+    return;
+  }
+
+  const partner = result.state.partners[partnerId];
+  if (partner.selectionMode === "need") {
+    scheduleSelectionBrowseTimeout(io, partnerId, STATUS_BROWSE_TIMEOUT_MS);
+  } else if (partner.isBrowsingEmotion) {
+    scheduleSelectionBrowseTimeout(io, partnerId, EMOTION_BROWSE_TIMEOUT_MS);
+  } else {
+    clearSelectionBrowseTimer(partnerId);
+  }
 }
 
 function isPartnerId(value: unknown): value is PartnerId {
@@ -75,15 +100,7 @@ export function registerSocketEvents(
     }
     const result = moveSelection(payload.partnerId, "previous");
     finishAction(io, result, acknowledge);
-    if (
-      result.ok &&
-      result.state.partners[payload.partnerId].selectionMode === "emotion" &&
-      result.state.partners[payload.partnerId].isBrowsingEmotion
-    ) {
-      scheduleEmotionBrowseTimeout(io, payload.partnerId);
-    } else {
-      clearEmotionBrowseTimer(payload.partnerId);
-    }
+    syncSelectionBrowseTimer(io, payload.partnerId, result);
   });
 
   socket.on("control:next", (payload, acknowledge) => {
@@ -93,15 +110,7 @@ export function registerSocketEvents(
     }
     const result = moveSelection(payload.partnerId, "next");
     finishAction(io, result, acknowledge);
-    if (
-      result.ok &&
-      result.state.partners[payload.partnerId].selectionMode === "emotion" &&
-      result.state.partners[payload.partnerId].isBrowsingEmotion
-    ) {
-      scheduleEmotionBrowseTimeout(io, payload.partnerId);
-    } else {
-      clearEmotionBrowseTimer(payload.partnerId);
-    }
+    syncSelectionBrowseTimer(io, payload.partnerId, result);
   });
 
   socket.on("control:confirm", (payload, acknowledge) => {
@@ -109,8 +118,9 @@ export function registerSocketEvents(
       acknowledge({ ok: false, error: "Unknown partner" });
       return;
     }
-    clearEmotionBrowseTimer(payload.partnerId);
-    finishAction(io, confirmSelection(payload.partnerId), acknowledge);
+    const result = confirmSelection(payload.partnerId);
+    finishAction(io, result, acknowledge);
+    syncSelectionBrowseTimer(io, payload.partnerId, result);
   });
 
   socket.on("belly:view", (payload, acknowledge) => {
@@ -146,8 +156,8 @@ export function registerSocketEvents(
   });
 
   socket.on("demo:reset", (acknowledge) => {
-    clearEmotionBrowseTimer("a");
-    clearEmotionBrowseTimer("b");
+    clearSelectionBrowseTimer("a");
+    clearSelectionBrowseTimer("b");
     const nextState = resetState();
     acknowledge({ ok: true });
     io.emit("state:update", nextState);

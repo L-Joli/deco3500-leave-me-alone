@@ -1,7 +1,7 @@
 import { randomUUID } from "node:crypto";
 
 import { EMOTIONS } from "../src/config/emotions";
-import { NEEDS } from "../src/config/needs";
+import { getAvailableNeeds } from "../src/config/needs";
 import { getAllowedReplies, getMatchingStatus } from "../src/config/replies";
 import type {
   PartnerId,
@@ -65,15 +65,20 @@ export function getState(): SharedState {
   return snapshot();
 }
 
-export function cancelEmotionBrowsing(
+export function cancelSelectionBrowsing(
   partnerId: PartnerId,
 ): SharedState | null {
   const partner = state.partners[partnerId];
-  if (partner.selectionMode !== "emotion" || !partner.isBrowsingEmotion) {
+
+  if (partner.selectionMode === "need") {
+    partner.selectionMode = "emotion";
+    partner.isBrowsingEmotion = false;
+  } else if (partner.isBrowsingEmotion) {
+    partner.isBrowsingEmotion = false;
+  } else {
     return null;
   }
 
-  partner.isBrowsingEmotion = false;
   state.revision += 1;
   return snapshot();
 }
@@ -93,9 +98,13 @@ export function moveSelection(
   const delta = direction === "next" ? 1 : -1;
 
   if (partner.selectionMode === "need") {
+    if (!partner.confirmedEmotion) {
+      return failure("Choose an emotion first");
+    }
+    const availableNeeds = getAvailableNeeds(partner.confirmedEmotion);
     partner.draftNeedIndex = wrapIndex(
       partner.draftNeedIndex + delta,
-      NEEDS.length,
+      availableNeeds.length,
     );
     return success();
   }
@@ -142,7 +151,8 @@ export function confirmSelection(partnerId: PartnerId): ActionResult {
     return failure("Choose an emotion first");
   }
 
-  const need = NEEDS[partner.draftNeedIndex];
+  const availableNeeds = getAvailableNeeds(partner.confirmedEmotion);
+  const need = availableNeeds[partner.draftNeedIndex];
   const update = {
     id: randomUUID(),
     emotionId: partner.confirmedEmotion,
@@ -157,7 +167,9 @@ export function confirmSelection(partnerId: PartnerId): ActionResult {
   receiver.selectedReply = null;
   receiver.latestConfirmedReply = null;
   receiver.hasNewIncomingUpdate = true;
-  state.matchingStatus = null;
+  if (need.id !== "just-sharing") {
+    state.matchingStatus = null;
+  }
 
   return success();
 }
@@ -218,6 +230,12 @@ export function confirmReply(
     ...selection,
     timestamp: Date.now(),
   };
-  state.matchingStatus = getMatchingStatus(incoming.needId, selection.replyId);
+  const nextMatchingStatus = getMatchingStatus(
+    incoming.needId,
+    selection.replyId,
+  );
+  if (nextMatchingStatus) {
+    state.matchingStatus = nextMatchingStatus;
+  }
   return success();
 }

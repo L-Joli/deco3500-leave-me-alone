@@ -17,6 +17,18 @@ function FaceFeatures({ emotionId }: { emotionId: EmotionId }) {
           <path d="M29 61 L71 61 Q68 82 50 84 Q32 82 29 61Z" />
         </>
       );
+    case "excited":
+      return (
+        <>
+          <circle cx="34" cy="44" r="6" />
+          <circle cx="66" cy="44" r="6" />
+          <path d="M25 31 Q34 25 43 31" className="face-detail" />
+          <path d="M57 31 Q66 25 75 31" className="face-detail" />
+          <path d="M30 61 Q50 70 70 61 Q67 83 50 85 Q33 83 30 61Z" />
+          <path d="M19 59 Q22 62 25 59" className="face-detail" />
+          <path d="M75 59 Q78 62 81 59" className="face-detail" />
+        </>
+      );
     case "calm":
       return (
         <>
@@ -58,14 +70,14 @@ function FaceFeatures({ emotionId }: { emotionId: EmotionId }) {
           <path d="M31 72 Q50 53 69 72" />
         </>
       );
-    case "frustrated":
+    case "overwhelmed":
       return (
         <>
-          <path d="M24 35 L43 42" className="face-detail" />
-          <path d="M57 42 L76 35" className="face-detail" />
-          <path d="M27 48 L40 48" />
-          <path d="M60 48 L73 48" />
-          <path d="M31 68 Q38 63 44 68 T57 68 T69 68" />
+          <ellipse cx="34" cy="45" rx="6" ry="8" />
+          <ellipse cx="66" cy="45" rx="6" ry="8" />
+          <path d="M26 31 Q34 26 42 32" className="face-detail" />
+          <path d="M58 32 Q66 26 74 31" className="face-detail" />
+          <path d="M31 69 Q38 61 45 69 T58 69 T69 69" />
         </>
       );
     case "angry":
@@ -76,17 +88,6 @@ function FaceFeatures({ emotionId }: { emotionId: EmotionId }) {
           <ellipse cx="35" cy="48" rx="4" ry="5" />
           <ellipse cx="65" cy="48" rx="4" ry="5" />
           <path d="M31 73 Q50 55 69 73" />
-        </>
-      );
-    case "anxious":
-      return (
-        <>
-          <ellipse cx="34" cy="45" rx="6" ry="8" />
-          <ellipse cx="66" cy="45" rx="6" ry="8" />
-          <path d="M28 31 Q34 27 41 31" className="face-detail" />
-          <path d="M59 31 Q66 27 72 31" className="face-detail" />
-          <path d="M33 68 Q39 61 45 68 T57 68 T67 68" />
-          <path d="M80 42 Q86 49 80 55 Q74 49 80 42Z" className="face-accent" />
         </>
       );
     case "neutral":

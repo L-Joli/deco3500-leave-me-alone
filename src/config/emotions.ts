@@ -16,13 +16,13 @@ export const NEUTRAL_EMOTION: EmotionDefinition = {
 
 export const EMOTIONS: readonly EmotionDefinition[] = [
   { id: "happy", label: "Happy", selectable: true },
+  { id: "excited", label: "Excited", selectable: true },
   { id: "calm", label: "Calm", selectable: true },
   { id: "tired", label: "Tired", selectable: true },
-  { id: "stressed", label: "Stressed", selectable: true },
   { id: "sad", label: "Sad", selectable: true },
-  { id: "frustrated", label: "Frustrated", selectable: true },
+  { id: "stressed", label: "Stressed", selectable: true },
+  { id: "overwhelmed", label: "Overwhelmed", selectable: true },
   { id: "angry", label: "Angry", selectable: true },
-  { id: "anxious", label: "Anxious", selectable: true },
 ];
 
 export function getEmotion(id: EmotionId): EmotionDefinition {

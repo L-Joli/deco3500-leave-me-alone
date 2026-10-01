@@ -33,6 +33,7 @@ export const REPLIES_BY_NEED: Record<NeedId, readonly ReplyDefinition[]> = {
     REPLIES["virtual-hug"],
   ],
   space: [
+    REPLIES["here-when-ready"],
     REPLIES["no-rush"],
     REPLIES["thinking-of-you"],
     REPLIES["virtual-hug"],

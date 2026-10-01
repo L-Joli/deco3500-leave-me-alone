@@ -4,13 +4,13 @@ export type SelectionDirection = "previous" | "next";
 
 export type SelectableEmotionId =
   | "happy"
+  | "excited"
   | "calm"
   | "tired"
+  | "overwhelmed"
   | "stressed"
   | "sad"
-  | "frustrated"
-  | "angry"
-  | "anxious";
+  | "angry";
 
 export type EmotionId = "neutral" | SelectableEmotionId;
 

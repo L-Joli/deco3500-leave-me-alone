@@ -4,7 +4,7 @@ import { ConnectionBadge } from "../components/ConnectionBadge";
 import { RouteCard } from "../components/RouteCard";
 import { StateInspector } from "../components/StateInspector";
 import { getEmotion } from "../config/emotions";
-import { getNeed, NEEDS } from "../config/needs";
+import { getAvailableNeeds, getNeed } from "../config/needs";
 import { useFeelio } from "../hooks/useFeelio";
 import type { PartnerId } from "../types/domain";
 
@@ -23,6 +23,9 @@ function PartnerSummary({ partnerId }: { partnerId: PartnerId }) {
   const partner = state.partners[partnerId];
   const emotion = getEmotion(partner.confirmedEmotion ?? "neutral");
   const latest = partner.latestSentUpdate;
+  const selectedNeed = partner.confirmedEmotion
+    ? getAvailableNeeds(partner.confirmedEmotion)[partner.draftNeedIndex]
+    : null;
 
   return (
     <article className="partner-summary">
@@ -30,7 +33,7 @@ function PartnerSummary({ partnerId }: { partnerId: PartnerId }) {
       <strong>{emotion.label}</strong>
       <p>
         {partner.selectionMode === "need"
-          ? `Choosing: ${NEEDS[partner.draftNeedIndex].label}`
+          ? `Choosing: ${selectedNeed?.label ?? "Choose an emotion first"}`
           : latest
             ? `Last sent: ${getNeed(latest.needId).label}`
             : "No update sent yet"}
