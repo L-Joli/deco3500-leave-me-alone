@@ -33,15 +33,19 @@ export function FaceDisplay({
   }
 
   const draft = EMOTIONS[partner.draftEmotionIndex];
+  const isConfirmed = !partner.isBrowsingEmotion;
   const emotionId: EmotionId = partner.isBrowsingEmotion
     ? draft.id
     : (partner.confirmedEmotion ?? NEUTRAL_EMOTION.id);
 
   return (
-    <section className={`face-display face-display--${variant}`}>
+    <section
+      className={`face-display face-display--${variant} ${isConfirmed ? "face-display--confirmed" : ""}`}
+    >
       <div className="face-display__content" aria-live="polite">
         <EmotionFace
           emotionId={emotionId}
+          surface={isConfirmed ? "light" : "dark"}
           size={isPreview ? "medium" : "large"}
         />
         {partner.isBrowsingEmotion ? (

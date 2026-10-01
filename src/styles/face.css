@@ -9,6 +9,16 @@
     radial-gradient(circle at 50% 48%, rgba(255, 114, 85, 0.1), transparent 42%),
     var(--color-face);
   color: #fff9f2;
+  transition:
+    background var(--duration-base) var(--ease-out),
+    color var(--duration-base) var(--ease-out);
+}
+
+.face-display--confirmed {
+  background:
+    radial-gradient(circle at 50% 48%, rgba(255, 114, 85, 0.08), transparent 42%),
+    var(--color-canvas-soft);
+  color: var(--color-ink);
 }
 
 .face-display--preview {

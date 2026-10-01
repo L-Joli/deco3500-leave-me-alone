@@ -65,6 +65,19 @@ export function getState(): SharedState {
   return snapshot();
 }
 
+export function cancelEmotionBrowsing(
+  partnerId: PartnerId,
+): SharedState | null {
+  const partner = state.partners[partnerId];
+  if (partner.selectionMode !== "emotion" || !partner.isBrowsingEmotion) {
+    return null;
+  }
+
+  partner.isBrowsingEmotion = false;
+  state.revision += 1;
+  return snapshot();
+}
+
 export function resetState(): SharedState {
   const nextRevision = state.revision + 1;
   state = createInitialState();

@@ -6,7 +6,9 @@ import type {
   PartnerId,
   ServerToClientEvents,
 } from "../src/types/domain";
+import { EMOTION_BROWSE_TIMEOUT_MS } from "../src/config/emotions";
 import {
+  cancelEmotionBrowsing,
   confirmReply,
   confirmSelection,
   getState,
@@ -19,6 +21,27 @@ import {
 
 type FeelioServer = Server<ClientToServerEvents, ServerToClientEvents>;
 type FeelioSocket = Socket<ClientToServerEvents, ServerToClientEvents>;
+
+const emotionBrowseTimers = new Map<PartnerId, ReturnType<typeof setTimeout>>();
+
+function clearEmotionBrowseTimer(partnerId: PartnerId): void {
+  const timer = emotionBrowseTimers.get(partnerId);
+  if (timer) clearTimeout(timer);
+  emotionBrowseTimers.delete(partnerId);
+}
+
+function scheduleEmotionBrowseTimeout(
+  io: FeelioServer,
+  partnerId: PartnerId,
+): void {
+  clearEmotionBrowseTimer(partnerId);
+  const timer = setTimeout(() => {
+    emotionBrowseTimers.delete(partnerId);
+    const nextState = cancelEmotionBrowsing(partnerId);
+    if (nextState) io.emit("state:update", nextState);
+  }, EMOTION_BROWSE_TIMEOUT_MS);
+  emotionBrowseTimers.set(partnerId, timer);
+}
 
 function isPartnerId(value: unknown): value is PartnerId {
   return value === "a" || value === "b";
@@ -50,7 +73,17 @@ export function registerSocketEvents(
       acknowledge({ ok: false, error: "Unknown partner" });
       return;
     }
-    finishAction(io, moveSelection(payload.partnerId, "previous"), acknowledge);
+    const result = moveSelection(payload.partnerId, "previous");
+    finishAction(io, result, acknowledge);
+    if (
+      result.ok &&
+      result.state.partners[payload.partnerId].selectionMode === "emotion" &&
+      result.state.partners[payload.partnerId].isBrowsingEmotion
+    ) {
+      scheduleEmotionBrowseTimeout(io, payload.partnerId);
+    } else {
+      clearEmotionBrowseTimer(payload.partnerId);
+    }
   });
 
   socket.on("control:next", (payload, acknowledge) => {
@@ -58,7 +91,17 @@ export function registerSocketEvents(
       acknowledge({ ok: false, error: "Unknown partner" });
       return;
     }
-    finishAction(io, moveSelection(payload.partnerId, "next"), acknowledge);
+    const result = moveSelection(payload.partnerId, "next");
+    finishAction(io, result, acknowledge);
+    if (
+      result.ok &&
+      result.state.partners[payload.partnerId].selectionMode === "emotion" &&
+      result.state.partners[payload.partnerId].isBrowsingEmotion
+    ) {
+      scheduleEmotionBrowseTimeout(io, payload.partnerId);
+    } else {
+      clearEmotionBrowseTimer(payload.partnerId);
+    }
   });
 
   socket.on("control:confirm", (payload, acknowledge) => {
@@ -66,6 +109,7 @@ export function registerSocketEvents(
       acknowledge({ ok: false, error: "Unknown partner" });
       return;
     }
+    clearEmotionBrowseTimer(payload.partnerId);
     finishAction(io, confirmSelection(payload.partnerId), acknowledge);
   });
 
@@ -102,6 +146,8 @@ export function registerSocketEvents(
   });
 
   socket.on("demo:reset", (acknowledge) => {
+    clearEmotionBrowseTimer("a");
+    clearEmotionBrowseTimer("b");
     const nextState = resetState();
     acknowledge({ ok: true });
     io.emit("state:update", nextState);
