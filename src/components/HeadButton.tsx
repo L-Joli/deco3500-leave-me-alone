@@ -28,7 +28,6 @@ export function HeadButton({ partnerId, compact = false }: HeadButtonProps) {
       <span className="head-button__disc" aria-hidden="true">
         <span />
       </span>
-      <span className="control-label">Head · Confirm</span>
       <span className="control-feedback" aria-live="polite">
         {feedback ?? "\u00A0"}
       </span>

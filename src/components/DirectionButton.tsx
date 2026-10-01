@@ -34,7 +34,6 @@ export function DirectionButton({
       <span className="direction-button__arrow" aria-hidden="true">
         {isPrevious ? "←" : "→"}
       </span>
-      <span className="control-label">{isPrevious ? "Left" : "Right"}</span>
       <span className="control-feedback" aria-live="polite">
         {feedback ?? "\u00A0"}
       </span>

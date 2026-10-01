@@ -98,17 +98,6 @@
     0 1rem 1.8rem rgba(232, 86, 59, 0.2);
 }
 
-.control-label {
-  font-size: clamp(1rem, 3vw, 1.35rem);
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.control--compact .control-label {
-  font-size: 0.72rem;
-}
-
 .control-feedback {
   min-height: 1.35em;
   color: var(--color-accent-deep);
