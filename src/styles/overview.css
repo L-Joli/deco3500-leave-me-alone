@@ -160,7 +160,7 @@
 }
 
 .overview-belly-frame {
-  min-height: clamp(34rem, 68vw, 51rem);
+  height: clamp(34rem, 68vw, 51rem);
 }
 
 .overview-controls {

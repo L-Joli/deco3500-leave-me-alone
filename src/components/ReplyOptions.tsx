@@ -7,11 +7,20 @@ import type { EmotionalUpdate, PartnerId } from "../types/domain";
 interface ReplyOptionsProps {
   partnerId: PartnerId;
   update: EmotionalUpdate;
+  onBack: () => void;
+  onConfirmed: () => void;
 }
 
-export function ReplyOptions({ partnerId, update }: ReplyOptionsProps) {
+export function ReplyOptions({
+  partnerId,
+  update,
+  onBack,
+  onConfirmed,
+}: ReplyOptionsProps) {
   const { state, selectReply, confirmReply } = useFeelio();
-  const [isChoosing, setIsChoosing] = useState(false);
+  const existingSelection =
+    state?.partners[partnerId].selectedReply?.updateId === update.id;
+  const [isChoosing, setIsChoosing] = useState(!existingSelection);
   const [feedback, setFeedback] = useState<string | null>(null);
   if (!state) return null;
 
@@ -25,92 +34,82 @@ export function ReplyOptions({ partnerId, update }: ReplyOptionsProps) {
       ? partner.latestConfirmedReply
       : null;
 
-  if (confirmed) {
-    return (
-      <div className="response-summary">
-        <span>You</span>
-        <p>“{getReply(confirmed.replyId).label}”</p>
-      </div>
-    );
-  }
-
-  if (selected && !isChoosing) {
-    const reply = getReply(selected.replyId);
-    return (
-      <div className="reply-confirmation">
-        <span className="belly-kicker">Your response</span>
-        <p>“{reply.label}”</p>
-        <div className="reply-confirmation__actions">
-          <button
-            type="button"
-            className="button button--quiet"
-            onClick={() => setIsChoosing(true)}
-          >
-            Change
-          </button>
-          <button
-            type="button"
-            className="button button--primary"
-            onClick={async () => {
-              const result = await confirmReply(partnerId, update.id);
-              setFeedback(result.ok ? "Sent with care ✓" : result.error);
-            }}
-          >
-            Confirm
-          </button>
-        </div>
-        <span className="reply-feedback" aria-live="polite">
-          {feedback}
-        </span>
-      </div>
-    );
-  }
-
-  if (!isChoosing) {
-    return (
-      <button
-        type="button"
-        className="button button--primary reply-open"
-        onClick={() => setIsChoosing(true)}
-      >
-        Reply
-      </button>
-    );
-  }
+  if (confirmed) return null;
 
   return (
-    <div className="reply-options">
-      <span className="belly-kicker">Choose a response</span>
-      <div className="reply-options__list">
-        {getAllowedReplies(update.needId).map((reply) => (
-          <button
-            type="button"
-            className="reply-option"
-            key={reply.id}
-            onClick={async () => {
-              const result = await selectReply(partnerId, reply.id, update.id);
-              if (result.ok) {
-                setIsChoosing(false);
-                setFeedback(null);
-              } else {
-                setFeedback(result.error);
-              }
-            }}
-          >
-            {reply.label}
-          </button>
-        ))}
-      </div>
+    <div className="reply-page">
       <button
         type="button"
-        className="button button--text"
-        onClick={() => setIsChoosing(false)}
+        className="button button--text reply-page__back"
+        onClick={onBack}
       >
-        Cancel
+        ← Back
       </button>
-      <span className="reply-feedback" aria-live="polite">
-        {feedback}
-      </span>
+
+      {selected && !isChoosing ? (
+        <div className="reply-confirmation">
+          <span className="belly-kicker">Your response</span>
+          <p>“{getReply(selected.replyId).label}”</p>
+          <div className="reply-confirmation__actions">
+            <button
+              type="button"
+              className="button button--quiet"
+              onClick={() => setIsChoosing(true)}
+            >
+              Change
+            </button>
+            <button
+              type="button"
+              className="button button--primary"
+              onClick={async () => {
+                const result = await confirmReply(partnerId, update.id);
+                if (result.ok) {
+                  setFeedback(null);
+                  onConfirmed();
+                } else {
+                  setFeedback(result.error);
+                }
+              }}
+            >
+              Confirm
+            </button>
+          </div>
+          <span className="reply-feedback" aria-live="polite">
+            {feedback}
+          </span>
+        </div>
+      ) : (
+        <div className="reply-options">
+          <span className="belly-kicker">Choose a response</span>
+          <div className="reply-options__list">
+            {getAllowedReplies(update.needId).map((reply) => (
+              <button
+                type="button"
+                className="reply-option"
+                key={reply.id}
+                onClick={async () => {
+                  const result = await selectReply(
+                    partnerId,
+                    reply.id,
+                    update.id,
+                  );
+                  if (result.ok) {
+                    setIsChoosing(false);
+                    setFeedback(null);
+                  } else {
+                    setFeedback(result.error);
+                  }
+                }}
+              >
+                {reply.label}
+              </button>
+            ))}
+          </div>
+          <span className="reply-feedback" aria-live="polite">
+            {feedback}
+          </span>
+        </div>
+      )}
     </div>
   );
 }
