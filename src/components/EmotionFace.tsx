@@ -14,7 +14,7 @@ function FaceFeatures({ emotionId }: { emotionId: EmotionId }) {
         <>
           <path d="M25 45 Q34 35 43 45" />
           <path d="M57 45 Q66 35 75 45" />
-          <path d="M29 62 Q50 84 71 62" />
+          <path d="M29 61 L71 61 Q68 82 50 84 Q32 82 29 61Z" />
         </>
       );
     case "calm":
@@ -28,11 +28,14 @@ function FaceFeatures({ emotionId }: { emotionId: EmotionId }) {
     case "tired":
       return (
         <>
-          <path d="M24 43 Q34 48 44 43" />
-          <path d="M56 43 Q66 48 76 43" />
-          <path d="M28 35 L41 37" className="face-detail" />
-          <path d="M59 37 L72 35" className="face-detail" />
+          <path d="M24 43 Q34 52 44 43" />
+          <path d="M56 43 Q66 52 76 43" />
+          <path d="M24 46 L20 50" className="face-detail" />
+          <path d="M76 46 L80 50" className="face-detail" />
           <ellipse cx="50" cy="67" rx="7" ry="4" />
+          <path d="M80 24 H88 L80 32 H88" className="face-detail" />
+          <path d="M86 14 H92 L86 20 H92" className="face-detail" />
+          <path d="M91 6 H96 L91 11 H96" className="face-detail" />
         </>
       );
     case "stressed":
@@ -92,7 +95,7 @@ function FaceFeatures({ emotionId }: { emotionId: EmotionId }) {
         <>
           <rect x="28" y="39" width="12" height="15" rx="6" />
           <rect x="60" y="39" width="12" height="15" rx="6" />
-          <path d="M36 68 L64 68" />
+          <path d="M36 66 Q50 73 64 66" />
         </>
       );
   }
