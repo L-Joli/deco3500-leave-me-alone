@@ -6,7 +6,7 @@ export interface EmotionDefinition {
   selectable: boolean;
 }
 
-export const EMOTION_BROWSE_TIMEOUT_MS = 4_000;
+export const EMOTION_BROWSE_TIMEOUT_MS = 5_000;
 
 export const NEUTRAL_EMOTION: EmotionDefinition = {
   id: "neutral",
