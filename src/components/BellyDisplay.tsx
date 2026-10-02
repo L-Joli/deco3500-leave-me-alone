@@ -69,8 +69,9 @@ export function BellyDisplay({
       ? partner.latestConfirmedReply
       : null;
   const hasResponseNotification = Boolean(
-    responseToOwnUpdate &&
-      (!incoming || responseToOwnUpdate.timestamp >= incoming.timestamp),
+    ownReplyToReveal ||
+      (responseToOwnUpdate &&
+        (!incoming || responseToOwnUpdate.timestamp >= incoming.timestamp)),
   );
 
   const clearNewIndicator = () => {
