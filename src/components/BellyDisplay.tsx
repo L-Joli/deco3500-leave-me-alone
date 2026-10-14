@@ -1,9 +1,4 @@
-import {
-  useEffect,
-  useRef,
-  useState,
-  type PointerEvent,
-} from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { EmotionFace } from "./EmotionFace";
 import { ReplyOptions } from "./ReplyOptions";
@@ -20,8 +15,7 @@ interface BellyDisplayProps {
 }
 
 const otherPartner: Record<PartnerId, PartnerId> = { a: "b", b: "a" };
-const LONG_PRESS_MS = 550;
-const LONG_PRESS_MOVE_TOLERANCE = 12;
+const SENT_CONFIRMATION_MS = 3_000;
 
 export function BellyDisplay({
   partnerId,
@@ -33,11 +27,14 @@ export function BellyDisplay({
   const hasNewUpdate = partner?.hasNewIncomingUpdate ?? false;
   const incomingId = other?.latestSentUpdate?.id ?? null;
   const [isReplyPage, setIsReplyPage] = useState(false);
-  const [isRevealingOwnReply, setIsRevealingOwnReply] = useState(false);
+  const ownReply =
+    incomingId && partner?.latestConfirmedReply?.updateId === incomingId
+      ? partner.latestConfirmedReply
+      : null;
+  const ownReplyTimestamp = ownReply?.timestamp ?? null;
+  const [showSentConfirmation, setShowSentConfirmation] = useState(false);
   const bellyCard = useRef<HTMLDivElement | null>(null);
   const emotionPageScrollTop = useRef(0);
-  const longPressTimer = useRef<number | null>(null);
-  const longPressOrigin = useRef<{ x: number; y: number } | null>(null);
 
   useEffect(() => {
     if (!hasNewUpdate || document.visibilityState !== "visible") return;
@@ -45,14 +42,20 @@ export function BellyDisplay({
     return () => window.clearTimeout(timer);
   }, [hasNewUpdate, partnerId, viewBelly]);
 
-  useEffect(
-    () => () => {
-      if (longPressTimer.current !== null) {
-        window.clearTimeout(longPressTimer.current);
-      }
-    },
-    [],
-  );
+  useEffect(() => {
+    if (ownReplyTimestamp !== null) setIsReplyPage(false);
+    const remainingMs =
+      ownReplyTimestamp !== null
+        ? ownReplyTimestamp + SENT_CONFIRMATION_MS - Date.now()
+        : 0;
+    setShowSentConfirmation(remainingMs > 0);
+    if (remainingMs <= 0) return;
+    const timer = window.setTimeout(
+      () => setShowSentConfirmation(false),
+      remainingMs,
+    );
+    return () => window.clearTimeout(timer);
+  }, [incomingId, ownReplyTimestamp]);
 
   useEffect(() => setIsReplyPage(false), [incomingId]);
 
@@ -64,54 +67,14 @@ export function BellyDisplay({
     other.latestConfirmedReply?.updateId === partner.latestSentUpdate.id
       ? other.latestConfirmedReply
       : null;
-  const ownReplyToReveal =
-    incoming && partner.latestConfirmedReply?.updateId === incoming.id
-      ? partner.latestConfirmedReply
-      : null;
   const hasResponseNotification = Boolean(
-    ownReplyToReveal ||
+    ownReply ||
       (responseToOwnUpdate &&
         (!incoming || responseToOwnUpdate.timestamp >= incoming.timestamp)),
   );
 
   const clearNewIndicator = () => {
     if (partner.hasNewIncomingUpdate) void viewBelly(partnerId);
-  };
-
-  const stopLongPress = () => {
-    if (longPressTimer.current !== null) {
-      window.clearTimeout(longPressTimer.current);
-      longPressTimer.current = null;
-    }
-    longPressOrigin.current = null;
-    setIsRevealingOwnReply(false);
-  };
-
-  const startLongPress = (event: PointerEvent<HTMLElement>) => {
-    clearNewIndicator();
-    if (
-      !ownReplyToReveal ||
-      (event.target as HTMLElement).closest("button, a")
-    ) {
-      return;
-    }
-    stopLongPress();
-    longPressOrigin.current = { x: event.clientX, y: event.clientY };
-    longPressTimer.current = window.setTimeout(() => {
-      longPressTimer.current = null;
-      setIsRevealingOwnReply(true);
-    }, LONG_PRESS_MS);
-  };
-
-  const handlePointerMove = (event: PointerEvent<HTMLElement>) => {
-    const origin = longPressOrigin.current;
-    if (
-      origin &&
-      Math.hypot(event.clientX - origin.x, event.clientY - origin.y) >
-        LONG_PRESS_MOVE_TOLERANCE
-    ) {
-      stopLongPress();
-    }
   };
 
   const handleReplyConfirmed = () => {
@@ -141,11 +104,7 @@ export function BellyDisplay({
   return (
     <section
       className={`belly-display belly-display--${variant} ${hasResponseNotification ? "belly-display--response" : ""}`}
-      onPointerDown={startLongPress}
-      onPointerMove={handlePointerMove}
-      onPointerUp={stopLongPress}
-      onPointerCancel={stopLongPress}
-      onPointerLeave={stopLongPress}
+      onPointerDown={clearNewIndicator}
       onContextMenu={(event) => event.preventDefault()}
     >
       <div className="belly-card-shell">
@@ -188,7 +147,17 @@ export function BellyDisplay({
                     size="small"
                   />
                   <blockquote>“{getNeed(incoming.needId).label}”</blockquote>
-                  {!ownReplyToReveal ? (
+                  {ownReply ? (
+                    <div className="belly-own-reply">
+                      <div className="belly-reply-bubble">
+                        <span>Your reply</span>
+                        <p>“{getReply(ownReply.replyId).label}”</p>
+                      </div>
+                      <span className="reply-sent" role="status">
+                        {showSentConfirmation ? "Sent ✓" : null}
+                      </span>
+                    </div>
+                  ) : (
                     <button
                       type="button"
                       className="button button--primary reply-open"
@@ -196,7 +165,7 @@ export function BellyDisplay({
                     >
                       Reply
                     </button>
-                  ) : null}
+                  )}
                 </div>
               ) : null}
 
@@ -205,27 +174,26 @@ export function BellyDisplay({
               ) : null}
 
               {responseToOwnUpdate && partner.latestSentUpdate ? (
-                <div className="response-summary">
-                  <div className="response-summary__item">
-                    <span>You shared</span>
-                    <p>“{getNeed(partner.latestSentUpdate.needId).label}”</p>
-                  </div>
-                  <div className="response-summary__item">
-                    <span>Partner’s reply</span>
-                    <p>“{getReply(responseToOwnUpdate.replyId).label}”</p>
-                  </div>
-                </div>
+                <section
+                  className="response-history"
+                  aria-label="Your shared update and partner reply"
+                >
+                  <hr className="response-divider" />
+                  <ol className="response-summary" aria-label="Chat history">
+                    <li className="belly-reply-bubble response-summary__item response-summary__item--own">
+                      <span>You shared</span>
+                      <p>“{getNeed(partner.latestSentUpdate.needId).label}”</p>
+                    </li>
+                    <li className="belly-reply-bubble response-summary__item response-summary__item--partner">
+                      <span>Partner’s reply</span>
+                      <p>“{getReply(responseToOwnUpdate.replyId).label}”</p>
+                    </li>
+                  </ol>
+                </section>
               ) : null}
             </>
           )}
         </div>
-
-        {!isReplyPage && isRevealingOwnReply && ownReplyToReveal ? (
-          <div className="belly-reply-reveal" role="status">
-            <span>Your reply</span>
-            <p>“{getReply(ownReplyToReveal.replyId).label}”</p>
-          </div>
-        ) : null}
       </div>
     </section>
   );
