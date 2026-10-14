@@ -48,6 +48,7 @@ function scheduleSelectionBrowseTimeout(
   selectionBrowseTimers.set(partnerId, timer);
 }
 
+// Retained for later use; selection handlers leave the calls disabled for now.
 function syncSelectionBrowseTimer(
   io: FeelioServer,
   partnerId: PartnerId,
@@ -100,7 +101,7 @@ export function registerSocketEvents(
     }
     const result = moveSelection(payload.partnerId, "previous");
     finishAction(io, result, acknowledge);
-    syncSelectionBrowseTimer(io, payload.partnerId, result);
+    // syncSelectionBrowseTimer(io, payload.partnerId, result);
   });
 
   socket.on("control:next", (payload, acknowledge) => {
@@ -110,7 +111,7 @@ export function registerSocketEvents(
     }
     const result = moveSelection(payload.partnerId, "next");
     finishAction(io, result, acknowledge);
-    syncSelectionBrowseTimer(io, payload.partnerId, result);
+    // syncSelectionBrowseTimer(io, payload.partnerId, result);
   });
 
   socket.on("control:confirm", (payload, acknowledge) => {
@@ -120,7 +121,7 @@ export function registerSocketEvents(
     }
     const result = confirmSelection(payload.partnerId);
     finishAction(io, result, acknowledge);
-    syncSelectionBrowseTimer(io, payload.partnerId, result);
+    // syncSelectionBrowseTimer(io, payload.partnerId, result);
   });
 
   socket.on("belly:view", (payload, acknowledge) => {
