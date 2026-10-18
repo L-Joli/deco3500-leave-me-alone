@@ -16,11 +16,17 @@ export type EmotionId = "neutral" | SelectableEmotionId;
 
 export type NeedId =
   | "talk-now"
+  | "talk-now-positive"
   | "space"
   | "talk-later"
   | "just-sharing";
 
 export type ReplyId =
+  | "of-course"
+  | "here-for-you"
+  | "give-me-a-moment"
+  | "take-your-time"
+  | "sounds-good"
   | "here-when-ready"
   | "talk-later-together"
   | "no-rush"
