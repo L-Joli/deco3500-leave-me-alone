@@ -18,7 +18,6 @@ export function FaceDisplay({
 
   const partner = state.partners[partnerId];
   const isPreview = variant === "preview";
-
   if (partner.selectionMode === "need") {
     if (!partner.confirmedEmotion) return null;
     const need = getAvailableNeeds(partner.confirmedEmotion)[
@@ -48,7 +47,7 @@ export function FaceDisplay({
       <div className="face-display__content" aria-live="polite">
         <EmotionFace
           emotionId={emotionId}
-          surface={isConfirmed ? "light" : "dark"}
+          surface={isConfirmed ? "dark" : "light"}
           size={isPreview ? "medium" : "large"}
         />
         {partner.isBrowsingEmotion ? (

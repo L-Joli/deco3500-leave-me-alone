@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 import { EmotionFace } from "./EmotionFace";
+import { HeartIcon } from "./HeartIcon";
 import { ReplyOptions } from "./ReplyOptions";
 import { StatusCard } from "./StatusCard";
 import { getEmotion } from "../config/emotions";
@@ -112,6 +113,19 @@ export function BellyDisplay({
           ref={bellyCard}
           className={`belly-card ${partner.hasNewIncomingUpdate ? "belly-card--new" : ""}`}
         >
+          <span
+            className={`belly-notification${responseToOwnUpdate ? " belly-notification--reply" : ""}`}
+            role="img"
+            aria-label={
+              responseToOwnUpdate
+                ? "Partner replied to your update"
+                : incoming
+                  ? "Partner emotion available"
+                  : "No partner update"
+            }
+          >
+            <HeartIcon />
+          </span>
           {isReplyPage && incoming ? (
             <ReplyOptions
               key={incoming.id}
@@ -122,20 +136,6 @@ export function BellyDisplay({
             />
           ) : (
             <>
-              {!incoming ? (
-                <div className="belly-empty">
-                  <span
-                    className="belly-empty__mark"
-                    role="img"
-                    aria-label="No partner update"
-                  >
-                    <svg viewBox="0 0 24 24" aria-hidden="true">
-                      <path d="M12 21s-7.2-4.4-9.7-8.7C.2 8.7 2 4.5 6.1 4.1c2.4-.2 4.3 1.1 5.9 3 1.6-1.9 3.5-3.2 5.9-3 4.1.4 5.9 4.6 3.8 8.2C19.2 16.6 12 21 12 21Z" />
-                    </svg>
-                  </span>
-                </div>
-              ) : null}
-
               {incoming ? (
                 <div className="belly-update">
                   <div className="belly-update__emotion">
