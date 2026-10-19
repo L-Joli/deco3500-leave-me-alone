@@ -18,6 +18,7 @@ export const EMOTIONS: readonly EmotionDefinition[] = [
   { id: "happy", label: "Happy", selectable: true },
   { id: "excited", label: "Excited", selectable: true },
   { id: "calm", label: "Calm", selectable: true },
+  { id: "curious", label: "Curious", selectable: true },
   { id: "tired", label: "Tired", selectable: true },
   { id: "sad", label: "Sad", selectable: true },
   { id: "stressed", label: "Stressed", selectable: true },

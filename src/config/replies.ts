@@ -7,7 +7,6 @@ export interface ReplyDefinition {
 
 const REPLIES: Record<ReplyId, ReplyDefinition> = {
   "of-course": { id: "of-course", label: "Of course ❤️" },
-  "here-for-you": { id: "here-for-you", label: "I'm here for you" },
   "give-me-a-moment": { id: "give-me-a-moment", label: "Give me a moment ❤️" },
   "take-your-time": { id: "take-your-time", label: "Take your time" },
   "sounds-good": { id: "sounds-good", label: "Sounds good ❤️" },
@@ -22,11 +21,15 @@ const REPLIES: Record<ReplyId, ReplyDefinition> = {
   "no-rush": { id: "no-rush", label: "No rush ❤️" },
   "thinking-of-you": { id: "thinking-of-you", label: "Thinking of you ❤️" },
   "virtual-hug": { id: "virtual-hug", label: "Virtual hug 🫂" },
+  "pretty-good": { id: "pretty-good", label: "Pretty good ❤️" },
+  "long-day": { id: "long-day", label: "It's been a long day 🥺" },
+  "tell-you-later": { id: "tell-you-later", label: "Tell you later 🫶" },
+  "im-okay": { id: "im-okay", label: "I'm okay ❤️" },
+  "not-great": { id: "not-great", label: "Not feeling great 🥺" },
 };
 
 const chatReplies = [
   REPLIES["of-course"],
-  REPLIES["here-for-you"],
   REPLIES["give-me-a-moment"],
 ];
 
@@ -43,6 +46,12 @@ export const REPLIES_BY_NEED: Record<NeedId, readonly ReplyDefinition[]> = {
     REPLIES["here-when-ready"],
   ],
   "just-sharing": [REPLIES["thinking-of-you"], REPLIES["virtual-hug"]],
+  "day-check-in": [
+    REPLIES["pretty-good"],
+    REPLIES["long-day"],
+    REPLIES["tell-you-later"],
+  ],
+  "just-checking-in": [REPLIES["im-okay"], REPLIES["not-great"]],
 };
 
 export function getAllowedReplies(needId: NeedId): readonly ReplyDefinition[] {
@@ -59,7 +68,7 @@ export function getMatchingStatus(
 ): MatchingStatus | null {
   if (
     (needId === "talk-now" || needId === "talk-now-positive") &&
-    (replyId === "of-course" || replyId === "here-for-you")
+    replyId === "of-course"
   ) {
     return "ready-together";
   }

@@ -6,6 +6,7 @@ export type SelectableEmotionId =
   | "happy"
   | "excited"
   | "calm"
+  | "curious"
   | "tired"
   | "overwhelmed"
   | "stressed"
@@ -19,11 +20,12 @@ export type NeedId =
   | "talk-now-positive"
   | "space"
   | "talk-later"
-  | "just-sharing";
+  | "just-sharing"
+  | "day-check-in"
+  | "just-checking-in";
 
 export type ReplyId =
   | "of-course"
-  | "here-for-you"
   | "give-me-a-moment"
   | "take-your-time"
   | "sounds-good"
@@ -31,7 +33,12 @@ export type ReplyId =
   | "talk-later-together"
   | "no-rush"
   | "thinking-of-you"
-  | "virtual-hug";
+  | "virtual-hug"
+  | "pretty-good"
+  | "long-day"
+  | "tell-you-later"
+  | "im-okay"
+  | "not-great";
 
 export type MatchingStatus = "ready-together" | "talk-later";
 

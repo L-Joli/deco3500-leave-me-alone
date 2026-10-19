@@ -66,6 +66,11 @@
   stroke: none;
 }
 
+.face-strokes .face-eye-outline {
+  fill: none;
+  stroke: currentColor;
+}
+
 .emotion-face--dark {
   color: #fff7ec;
   filter: drop-shadow(0 0 1.6rem rgba(255, 214, 194, 0.14));

@@ -13,6 +13,8 @@ export const NEEDS: readonly NeedDefinition[] = [
   { id: "talk-later", label: "Let's catch up later 🫶" },
   { id: "just-sharing", label: "Just sharing ❤️" },
   { id: "talk-now-positive", label: "Can we chat for a bit? ❤️" },
+  { id: "day-check-in", label: "How's your day going? ❤️" },
+  { id: "just-checking-in", label: "Just checking in ❤️" },
 ];
 
 const positiveNeeds = [NEEDS[4], NEEDS[3], NEEDS[2]] as const;
@@ -25,6 +27,7 @@ export const NEEDS_BY_EMOTION: Record<
   happy: positiveNeeds,
   excited: positiveNeeds,
   calm: positiveNeeds,
+  curious: [NEEDS[5], NEEDS[6]],
   tired: broaderNeeds,
   sad: broaderNeeds,
   stressed: broaderNeeds,

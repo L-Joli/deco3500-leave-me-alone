@@ -37,6 +37,18 @@ function FaceFeatures({ emotionId }: { emotionId: EmotionId }) {
           <path d="M36 65 Q50 73 64 65" />
         </>
       );
+    case "curious":
+      return (
+        <>
+          <path d="M25 30 Q34 25 43 30" className="face-detail" />
+          <path d="M57 25 Q66 18 75 24" className="face-detail" />
+          <circle cx="34" cy="45" r="9.5" className="face-eye-outline" />
+          <circle cx="66" cy="45" r="9.5" className="face-eye-outline" />
+          <circle cx="37" cy="45" r="5.5" />
+          <circle cx="69" cy="45" r="5.5" />
+          <path d="M43 66 Q50 75 57 66" />
+        </>
+      );
     case "tired":
       return (
         <>
