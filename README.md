@@ -2,8 +2,6 @@
 
 This app is a demonstration panel for **Feelio**, a bag charm concept that lets two partners share how they feel and what they need through a pair of connected bag charms. The panel showcases the idea by simulating the charms' screens and controls, so you can try the interaction in a browser.
 
-Use the **Overview** pages to simulate the experience. Each Overview brings one partner's face, hand controls, head button, and belly display together in a single panel, so you can explore the idea without setting up separate devices.
-
 ## Run the app
 
 You need **Node.js 20.19.0+ (20.x) or 22.12.0+**, and **npm**.
@@ -21,7 +19,9 @@ Then look for **Network:** in the terminal. Copy the web address shown next to i
 
 ## Simulate the experience with Overview
 
-After running `npm run dev` and opening the **Network** address from the terminal, open both partners' Overview pages in separate tabs or windows. Placing them side by side makes it easy to follow both sides of the exchange:
+Once the app is running and you have opened the setup dashboard in your browser, use the **Overview** pages to simulate the experience. Each Overview brings one partner's face, hand controls, head button, and belly display together in a single panel, so you can explore the idea without setting up separate devices.
+
+Open both partners' Overview pages in separate tabs or windows. Placing them side by side makes it easy to follow both sides of the exchange:
 
 - **Partner A:** open the **Overview** link under **Partner A** on the dashboard.
 - **Partner B:** open the **Overview** link under **Partner B** on the dashboard in another tab or window.
@@ -56,3 +56,17 @@ The dashboard also links to individual bag charm screens and controls for each p
 | Belly display | `/a/belly` | `/b/belly` | Read updates and exchange replies |
 
 To try the demo across devices, connect them to the same Wi-Fi network as the computer running the app. Open the **Network** address printed in the terminal, then use the dashboard links or scan the screen QR codes. Open the dashboard through that network address before scanning, so the QR codes point to an address the other devices can reach.
+
+## Repository Structure
+
+This repository contains both the Feelio showcase app and the research and design work behind the bag charm concept.
+
+| Folder | What you will find |
+| --- | --- |
+| [src/](src/) | The code for the app you see and interact with in your browser. |
+| [server/](server/) | The code that keeps both partners' screens connected and passes updates and replies between them. |
+| [docs/](docs/) | Project documentation, including meeting notes, research, and design work. |
+| [docs/research/primary/](docs/research/primary/) | Interview transcripts and findings.|
+| [docs/design/](docs/design/) | Design decisions, ethical considerations, and the development of the Feelio concept. |
+| [docs/design/prototype-iterations/](docs/design/prototype-iterations/) | Images of earlier wireframes, app prototypes, and bag charm prototypes. |
+
