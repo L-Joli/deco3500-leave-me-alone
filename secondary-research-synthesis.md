@@ -1,130 +1,132 @@
 # Secondary Research Synthesis
 
-Literature synthesis around boundary-related discomfort, reflection, relationship advice, and difficult conversations.
+Literature informing Feelio’s development from exploring boundary-related discomfort to supporting emotional awareness, clarification and communication timing between romantic partners.
 
-## Theme 1 — Discomfort can be recognised before it can be explained
-
-### Finding
-People can experience and show discomfort before they are able to clearly explain what feels wrong.
-
-### Evidence
-- Popova et al. found discomfort was often expressed through gaze and bodily movement, while verbalising it required effort.
-- Baughan et al. recommend exploring the deeper needs and context behind a surface-level conflict before communicating it.
-
-### Insight
-Feeling uncomfortable does not necessarily mean someone immediately understands what boundary or need has been affected.
-
-### Design implication
-Support users in externalising and exploring discomfort before requiring them to define or communicate a boundary.
-
----
-
-## Theme 2 — Boundaries are contextual and can change over time
+## Theme 1 — Emotional awareness does not automatically create understanding
 
 ### Finding
-Boundaries are not always fixed rules. They can be negotiated differently depending on the person, situation, and platform.
+Noticing a change in a partner’s emotional state does not necessarily explain what they are feeling, why they feel that way or how they want to be approached.
 
 ### Evidence
-- Park et al. describe interpersonal boundary management as a dynamic process of opening, closing, and renegotiating boundaries after “boundary turbulence”.
-- Their findings also show that social and technical contexts influence how boundaries are managed.
+- Schmidt (2002) frames awareness as something people develop through interpreting information within their activities and interactions.
+- Baughan et al. (2024) highlight the importance of understanding underlying needs and context when preparing for difficult conversations.
 
 ### Insight
-Whether something feels like a boundary issue can depend on the surrounding context, not only the behaviour itself.
+An emotional signal can draw attention to a partner’s feelings, but its meaning still depends on interpretation and context.
 
 ### Design implication
-Let users capture the context around uncomfortable experiences rather than treating every event as isolated.
+Pair emotions with short messages expressing communication needs, helping partners decide whether to offer support, start a conversation or give space.
 
----
-
-## Theme 3 — Reflection can help people recognise patterns
+## Theme 2 — Emotional sharing can support communication and coordination
 
 ### Finding
-Reflection can increase awareness of emotions, interactions, and recurring social patterns.
+Sharing information can help people coordinate their actions, including how and when they interact.
 
 ### Evidence
-- Sakel et al. found shared reflection increased awareness of participants’ own behaviour, their partner’s feelings, and their shared time.
-- Baughan et al. also recommend self-reflection on underlying needs before difficult conversations.
+- The 3C Collaboration Model distinguishes communication, coordination and cooperation (Fuks et al., 2008).
+- Baughan et al. (2024) identify conversational consent, emotional regulation and pauses as design opportunities around difficult conversations.
 
 ### Insight
-Looking across multiple experiences may make patterns visible that are difficult to recognise in one moment.
+Sharing an emotion becomes more useful when it helps partners coordinate their next interaction. Knowing someone is tired does not establish whether they want company or time alone.
 
 ### Design implication
-Help users revisit and connect related experiences over time.
+Allow users to share both an emotion and a communication preference, such as “Can we chat for a bit?” or “Let’s catch up later.” Keep sharing and responding optional.
 
----
-
-## Theme 4 — Outside perspectives can help, but should not become the authority
+## Theme 3 — Physical objects can provide a meaningful channel for connection
 
 ### Finding
-People already use digital systems for relationship sensemaking, but digital advice can introduce new risks.
+Connected objects can support intimacy through physical gestures and a sense of presence, alongside the information they communicate.
 
 ### Evidence
-- Tseng & Liang found AI relationship advice can feel private and less judgemental, but risks include sycophancy and overreliance.
-- van Nuenen & Sachdeva show that LLM moral judgements can change when the same situation is narrated or prompted differently.
+- Strong and Gaver (1996) explore objects that support mediated intimacy through simple signals, physical interaction and companionship.
+- Hornecker and Buur (2006) describe how tangible interaction connects physical manipulation with social experience.
+- Hollan and Stornetta (1992) encourage designing communication technologies around possibilities that extend beyond reproducing face-to-face interaction.
 
 ### Insight
-An outside perspective may help reflection, but it should not be presented as an objective verdict about who is right or wrong.
+The physical form can contribute to the emotional experience of sharing. A small gesture may provide a way to connect before someone is ready for a full conversation.
 
 ### Design implication
-Provide reflection prompts and alternative perspectives rather than definitive relationship verdicts.
+Use paired, portable charms as a dedicated channel for emotional sharing. Physical gestures, such as pressing the hands and nodding the head, make the object part of the interaction.
 
----
-
-## Theme 5 — Recognising the issue and communicating it are different stages
+## Theme 4 — Supporting connection does not always require more phone interaction
 
 ### Finding
-People may need different types of support before, during, and after deciding to discuss a difficult issue.
+Technology can facilitate social interaction, while also introducing interruptions or drawing attention away from a partner.
 
 ### Evidence
-- Baughan et al. organise design opportunities across initiation, navigation, and resolution.
-- Their model includes self-reflection, conversational consent, emotional regulation, pauses, and repair.
-- Timing and emotional readiness matter when difficult conversations occur.
+- Olsson et al. (2020) review technologies designed to enhance social interaction, including approaches that shape how people engage with one another.
+- Sakel et al. (2025) examine shared reflection and meaningful social interaction, providing context for considering technology use within relationships.
 
 ### Insight
-Recognising a boundary concern does not automatically mean a person is ready to confront or discuss it.
+A tool intended to support connection should consider the attention it demands as well as the information it provides.
 
 ### Design implication
-Let users reflect privately first, then support communication only when they decide they are ready.
+Let partners share and receive updates without opening a phone app. Use a subtle light to indicate an update, while recognising that even a quiet signal may create a perceived expectation to respond.
 
----
+## Theme 5 — Design choices shape how partners can respond
 
-## Common Pattern from Secondary Research
+### Finding
+Interfaces influence the actions available to users and the kinds of interaction they encourage.
 
-**Experience discomfort → interpret what it might mean → reflect / clarify the context → recognise whether it is recurring → decide how and when to respond**
+### Evidence
+- Akrich (1992) describes how technical objects embed assumptions and expectations about their users and use.
+- Olsson et al. (2020) discuss design approaches that structure interaction to support social engagement.
 
-Outside perspectives can act as an optional support during reflection rather than a required step.
+### Insight
+Preset messages can reduce the effort of finding words and guide supportive responses. However, limited options may also fail to represent what someone means.
 
----
+### Design implication
+Provide brief, context-appropriate messages and replies that support acknowledgement, reassurance and deferring a conversation. Evaluate their wording rather than assuming that supportive intentions guarantee supportive interpretations.
+
+## Theme 6 — Acknowledgement matters alongside emotional expression
+
+### Finding
+Sending a signal and knowing that it has been acknowledged are different parts of a communication exchange.
+
+### Evidence
+- Strong and Gaver’s (1996) exploration of simple intimate signals raises questions about how people interpret and reciprocate mediated connection.
+- The 3C Collaboration Model provides a lens for considering how communication supports coordination between people (Fuks et al., 2008).
+
+### Insight
+A sender may remain uncertain after sharing an emotion if they cannot tell whether their partner has acknowledged it. Acknowledgement also does not necessarily mean the partner is ready to talk.
+
+### Design implication
+Provide replies and matching statuses that make acknowledgement visible. Keep these distinct from assumptions about emotional agreement or readiness for a conversation.
 
 ## Overall Synthesis
 
-Across the literature, discomfort, boundary recognition, and communication appear to be separate processes. People may feel that something is wrong before understanding why, and reflection across multiple experiences can help make patterns more visible.
+The literature suggests an opportunity to support the period between noticing a partner’s emotional state and beginning a conversation. Emotional awareness alone may leave uncertainty about meaning, needs and timing.
 
-Technology therefore has an opportunity to support private sensemaking before pushing users toward advice or confrontation.
+Feelio responds through paired physical charms that combine emotional signals with communication preferences and supportive replies. Its purpose is to help partners decide how and when to approach one another, while preserving privacy and voluntary participation.
 
----
+## Connection to Primary Research and Evaluation
 
-## Research Gap
+Our interviews identified uncertainty between noticing emotional changes and knowing how to respond. Prototype evaluation further suggested that emotion labels alone lacked context, supporting the addition of communication needs.
 
-**There seems to be a gap before the difficult conversation: helping people work out why something feels uncomfortable and whether it is becoming a recurring boundary pattern.**
+Later testing highlighted difficulties with physical controls, interaction feedback and the interpretation of preset replies. These findings informed refinements to navigation, confirmation, message wording and feedback.
 
----
+Together, the secondary and primary research support five design priorities:
 
-## Connection to Primary Research
+- Emotional awareness.
+- Clarification.
+- Low-effort expression.
+- Supportive responses.
+- Communication readiness.
 
-The secondary research aligns closely with the primary research pattern:
+The evaluations provide evidence about usability and perceived value. They do not establish that Feelio reduces conflict or improves relationships over time.
 
-**Notice change → form an interpretation → check or clarify → adjust response → decide whether to continue, pause, or communicate**
+## Design Opportunity
 
-The strongest overlap is the uncertain period between **noticing that something feels wrong** and **deciding how or when to communicate it**.
-
----
+How might paired, tangible devices help romantic partners share emotional states and communication needs, so they can choose how and when to approach one another without requiring an immediate conversation?
 
 ## Core Sources
 
-- Popova et al. (2024) — *Voicing Discomfort, Communicating Breakdowns: Design Exploration of Felt Ethics in a Body-Based Workshop*
+- Akrich (1992) — *The De-Scription of Technical Objects*
+- Fuks et al. (2008) — *The 3C Collaboration Model*
+- Hollan and Stornetta (1992) — *Beyond Being There*
+- Hornecker and Buur (2006) — *Getting a Grip on Tangible Interaction*
+- Olsson et al. (2020) — *Technologies for Enhancing Collocated Social Interaction*
+- Schmidt (2002) — *The Problem with “Awareness”*
+- Strong and Gaver (1996) — *Feather, Scent, and Shaker: Supporting Simple Intimacy*
 - Baughan et al. (2024) — *Supporting Hard Conversations in Close Relationships Through Design*
 - Sakel et al. (2025) — *Us-Reflection: Designing for Meaningful Social Interactions*
-- Park et al. (2025) — *Teens, Privacy, and Algorithms: Navigating and Co-Designing Solutions for Interpersonal Boundary Management on Social Media*
-- Tseng & Liang (2026) — *“Chat, Should I Leave Him?” Risks, Rewards, and Roles for AI in Relationship Advice*
-- van Nuenen & Sachdeva (2026) — *The Fragility of Moral Judgment in Large Language Models*
