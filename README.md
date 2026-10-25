@@ -2,6 +2,24 @@
 
 This app is a demonstration panel for **Feelio**, a bag charm concept that lets two partners share how they feel and what they need through a pair of connected bag charms. The panel showcases the idea by simulating the charms' screens and controls, so you can try the interaction in a browser.
 
+## Research and Design Evidence
+
+The following resources document Feelio’s research, design development and evaluation.
+
+| Resource | Contents |
+| --- | --- |
+| [Miro — Research and Design Process](https://miro.com/app/board/uXjVHzNHlLI=/?share_link_id=754372985168) | Research activities, synthesis, ideation and design development. |
+| [OneDrive — Supporting Project Materials](https://uq-my.sharepoint.com/:f:/r/personal/s4946038_uq_edu_au/Documents/DECO3500%20Leave%20me%20alone?d=w156d6fc213134e7980258a0e539c3d9d&csf=1&web=1&e=PQnwzv) | Supporting research, design and evaluation files. |
+| [Round 1 — Relationship Boundaries](docs/research/primary/interview-round-1/) | Initial interviews and research synthesis diagrams. |
+| [Round 2 — Emotional Awareness](docs/research/primary/interview-round-2/) | Focused interviews and synthesis exploring how partners recognise and respond to emotions. |
+| [Round 3 — Prototype Evaluation](docs/research/primary/interview-round-3/) | Testing plan, transcripts and research synthesis. |
+| [Round 4 — Refined Prototype Evaluation](docs/research/primary/interview-round-4/) | In-class testing transcripts, survey responses and thematic analysis. |
+| [Secondary Research](secondary-research-synthesis.md) | Literature synthesis informing the project direction. |
+| [Design Decisions](docs/design/Decision%20Log.md) | Key decisions and their rationale throughout the project. |
+| [Prototype Iterations](docs/design/prototype-iterations/) | Images and descriptions showing how the prototypes developed. |
+| [Ethical Considerations](docs/design/Ethical-Considerations.md) | Ethical risks, design responses and limitations. |
+| [Meeting Notes](docs/Meeting%20Notes.md) | Team discussions, progress and next steps. |
+
 ## Run the app
 
 You need **Node.js 20.19.0+ (20.x) or 22.12.0+**, and **npm**.
