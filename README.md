@@ -88,3 +88,18 @@ This repository contains both the Feelio showcase app and the research and desig
 | [docs/design/](docs/design/) | Design decisions, ethical considerations, and the development of the Feelio concept. |
 | [docs/design/prototype-iterations/](docs/design/prototype-iterations/) | Images of earlier wireframes, app prototypes, and bag charm prototypes. |
 
+## AI Acknowledgement
+
+During August-October 2026, we used Codex, ChatGPT and Claude to assist with organising project documentation and developing prototype code in this repository. This assistance related to the README, documentation in `docs/`, and prototype code in `src/` and `server/`.
+
+The following summarises requests across these tools during this period.
+
+| Tool | Purpose | Prompt | Affected sections | Date |
+| --- | --- | --- | --- | --- |
+| Codex, ChatGPT, Claude (collectively) | Document organisation | Organise project documents into appropriate folders. | `docs/` | August–October 2026 |
+| Codex, ChatGPT, Claude (collectively) | Documentation structure | Improve the structure and navigation of project documentation. | `README.md`, `docs/` | August–October 2026 |
+| Codex, ChatGPT, Claude (collectively) | Grammar and language checking | Check grammar, spelling and clarity while preserving the original meaning. | `README.md`, `docs/` | August–October 2026 |
+| Codex, ChatGPT, Claude (collectively) | Coding assistance | Help write code for the Feelio showcase prototype. | `src/`, `server/` | August–October 2026 |
+| Codex | Link checking | Check and correct README links to project documents. | `README.md` | 25 October 2026 |
+
+The team takes responsibility for the final submitted documentation and code.
