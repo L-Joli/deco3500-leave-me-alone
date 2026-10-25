@@ -101,5 +101,7 @@ The following summarises requests across these tools during this period.
 | Codex, ChatGPT, Claude (collectively) | Grammar and language checking | Check grammar, spelling and clarity while preserving the original meaning. | `README.md`, `docs/` | August–October 2026 |
 | Codex, ChatGPT, Claude (collectively) | Coding assistance | Help write code for the Feelio showcase prototype. | `src/`, `server/` | August–October 2026 |
 | Codex | Link checking | Check and correct README links to project documents. | `README.md` | 25 October 2026 |
+| ChatGPT (image generation) | Visualise Feelio prototype ideas | Generate and refine Feelio images, expressions, colours and interaction details. | Prototype ideation, poster and manual | September–October 2026 |
+| ChatGPT (image generation) | Create supporting icons | Generate simple, consistent icons with transparent backgrounds. | Poster and manual | September–October 2026 |
 
 The team takes responsibility for the final submitted documentation and code.
